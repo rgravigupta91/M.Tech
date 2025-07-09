@@ -1,0 +1,4489 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='query (Copy of Mag6PlusEarthquakes_1900-2013)' inline='true' name='federated.0zveiaa0g6zh6f17shssk11dhdgk' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Copy of Mag6PlusEarthquakes_1900-2013' name='excel-direct.132oi4d1e6kb1r1g76qyt1borsso'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Ravi/Downloads/DVT Presentation/DVT Project Datasets/Project5/Copy of Mag6PlusEarthquakes_1900-2013.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.132oi4d1e6kb1r1g76qyt1borsso' name='query' table='[query$]' type='table'>
+          <columns gridOrigin='A1:R8314:no:A1:R8314:0' header='yes' outcome='6'>
+            <column datatype='string' name='time' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='datetime' name='Time' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='real' name='latitude' ordinal='4' />
+            <column datatype='real' name='longitude' ordinal='5' />
+            <column datatype='real' name='depth' ordinal='6' />
+            <column datatype='real' name='mag' ordinal='7' />
+            <column datatype='string' name='magType' ordinal='8' />
+            <column datatype='integer' name='nst' ordinal='9' />
+            <column datatype='real' name='gap' ordinal='10' />
+            <column datatype='real' name='dmin' ordinal='11' />
+            <column datatype='real' name='rms' ordinal='12' />
+            <column datatype='string' name='net' ordinal='13' />
+            <column datatype='string' name='id' ordinal='14' />
+            <column datatype='string' name='updated' ordinal='15' />
+            <column datatype='string' name='place' ordinal='16' />
+            <column datatype='string' name='type' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.132oi4d1e6kb1r1g76qyt1borsso' name='query' table='[query$]' type='table'>
+          <columns gridOrigin='A1:R8314:no:A1:R8314:0' header='yes' outcome='6'>
+            <column datatype='string' name='time' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='datetime' name='Time' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='real' name='latitude' ordinal='4' />
+            <column datatype='real' name='longitude' ordinal='5' />
+            <column datatype='real' name='depth' ordinal='6' />
+            <column datatype='real' name='mag' ordinal='7' />
+            <column datatype='string' name='magType' ordinal='8' />
+            <column datatype='integer' name='nst' ordinal='9' />
+            <column datatype='real' name='gap' ordinal='10' />
+            <column datatype='real' name='dmin' ordinal='11' />
+            <column datatype='real' name='rms' ordinal='12' />
+            <column datatype='string' name='net' ordinal='13' />
+            <column datatype='string' name='id' ordinal='14' />
+            <column datatype='string' name='updated' ordinal='15' />
+            <column datatype='string' name='place' ordinal='16' />
+            <column datatype='string' name='type' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[query]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R8314:no:A1:R8314:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>depth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[depth]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>depth</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mag</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mag]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>mag</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>magType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[magType]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>magType</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nst</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nst]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>nst</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gap]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>gap</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dmin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dmin]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>dmin</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rms</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rms]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>rms</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>net</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[net]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>net</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>updated</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[updated]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>updated</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[place]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>place</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[query]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[query_AB932462C9D2439790F6C85EFC2ABE69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Below7' datatype='integer' name='[Calculation_412360871430291456]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [mag] &lt; 7 THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='7ANDABOVE' datatype='integer' name='[Calculation_412360871431237633]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [mag] &gt;= 7 THEN 1 ELSE 0 END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='query' datatype='table' name='[__tableau_internal_object_id__].[query_AB932462C9D2439790F6C85EFC2ABE69]' role='measure' type='quantitative' />
+      <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+      <column caption='Dmin' datatype='real' name='[dmin]' role='measure' type='quantitative' />
+      <column caption='Gap' datatype='real' name='[gap]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Mag Type' datatype='string' name='[magType]' role='dimension' type='nominal' />
+      <column caption='Mag' datatype='real' name='[mag]' role='measure' type='quantitative' />
+      <column caption='Net' datatype='string' name='[net]' role='dimension' type='nominal' />
+      <column caption='Nst' datatype='integer' name='[nst]' role='measure' type='quantitative' />
+      <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
+      <column caption='Rms' datatype='real' name='[rms]' role='measure' type='quantitative' />
+      <column caption='Time1' datatype='string' name='[time]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column caption='Updated' datatype='string' name='[updated]' role='dimension' type='nominal' />
+      <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_412360871430291456]' derivation='Sum' name='[sum:Calculation_412360871430291456:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_412360871431237633]' derivation='Sum' name='[sum:Calculation_412360871431237633:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mag]' derivation='Sum' name='[sum:mag:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Place)' hidden='true' name='[Action (Place)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[place]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871431237633:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:place:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;122km WNW of Panguna, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;189km WNW of Saumlaki, Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;31km W of Platanos, Greece&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;53km WSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;77km SSW of Atka, Alaska&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;94km SE of Minab, Iran&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;9km N of Zarubino, Russia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Alaska Peninsula&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Azores Islands region&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Biak region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Caucasus region, Russia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Chukotskiy Avtonomnyy Okrug, Russia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;eastern Sichuan, China&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Galapagos Triple Junction region&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Haiti region&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jalisco, Mexico&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kepulauan Batu, Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;La Rioja, Argentina&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Maharashtra, India&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mona Passage&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;near the coast of northern Iran&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Negros, Philippines&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;north of Panama&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;northwest of Australia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;off the coast of Ecuador&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;off the east coast of the Kamchatka Peninsula, Russia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;offshore Los Lagos, Chile&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Papua region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Russia-Kazakhstan border region&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sea of Japan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;south of Africa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;southeast of Easter Island&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;southern Xinjiang, China&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Turkey-Iran border region&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Western Australia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;114km WSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;167km NW of Ceva-i-Ra, Fiji&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;25km S of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;283km SW of Vaini, Tonga&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;46km SSE of Acari, Peru&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;61km NNE of Awaran, Pakistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;85km NNE of Awaran, Pakistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Argentina-Paraguay border region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Banda Sea&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;central Peru&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Croatia-Bosnia-Montenegro border region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Easter Island region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Federated States of Micronesia region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;India-Bangladesh border region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kashmir-Xizang border region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Korea Bay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Libertador General Bernardo O&apos;Higgins, Chile&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Melville Island region, Nunavut, Canada&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Near Islands, Aleutian Islands, Alaska&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;near the north coast of Papua, Indonesia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;North Indian Ocean&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;northern Iran&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;off the coast of Atacama, Chile&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;off the coast of Sinaloa, Mexico&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;offshore Colima, Mexico&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Pacific-Antarctic Ridge&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rat Islands, Aleutian Islands, Alaska&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;San Francisco Bay area, California&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sonora-Sinaloa border region, Mexico&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South of the Kermadec Islands&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;southern Idaho&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Timor region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Virgin Islands region&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;western Xizang-India border region&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;117km W of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;180km SE of Lorengau, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;29km NE of Kandrian, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;48km WSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;66km WSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;6km ENE of Santa Catarina Pinula, Guatemala&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;89km SE of Ozernovskiy, Russia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Aegean Sea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Atacama, Chile&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Caspian Sea, offshore Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chatham Islands, New Zealand region&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;eastern Mediterranean Sea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Flores Sea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gulf of California&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kepulauan Alor, Indonesia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kyrgyzstan-Tajikistan-Xinjiang border region&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Macedonia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Minahasa, Sulawesi, Indonesia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;near the coast of Ecuador&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;near the south coast of western Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;north of Halmahera, Indonesia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;northern Qinghai, China&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;off the coast of Chiapas, Mexico&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;off the coast of Tanzania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;offshore Guerrero, Mexico&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Reykjanes Ridge&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Santa Cruz, Bolivia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South China Sea&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South Sandwich Islands region&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;southern Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sumbawa region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tonga region&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;west of Macquarie Island&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yellow Sea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;135km WSW of Druzhina, Russia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;18km N of Shandon, California&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;239km NNE of Ceva-i-Ra, Fiji&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;34km E of Port-Olry, Vanuatu&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;58km ENE of Luganville, Vanuatu&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;80km WNW of Iquique, Chile&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;99km SW of Etchoropo, Mexico&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Andaman Islands, India region&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Baffin Bay&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bohol, Philippines&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Central Alaska&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;east of Dominica, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;eastern Xizang-India border region&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Georgia (Sak&apos;art&apos;velo)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Heilongjiang, China&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Java, Indonesia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kepulauan Sangihe, Indonesia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lake Edward region, Congo-Uganda&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mariana Islands region&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Montenegro-Albania border region&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;near the coast of Tarapaca, Chile&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;New Britain region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;northeast of Taiwan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;northwestern Iran&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;off the coast of Jalisco, Mexico&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;off the west coast of northern Sumatra&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;offshore Nayarit, Mexico&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Peru-Ecuador border region&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Saint Kitts and Nevis region, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Shikoku, Japan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;south of Java, Indonesia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;southeast of the Ryukyu Islands, Japan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;southwestern Pakistan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Unimak Island region, Alaska&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;western Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;133km NW of Hihifo, Tonga&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;15km NNE of Kunisaki-shi, Japan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;198km E of Farallon de Pajaros, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;32km E of Finschhafen, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;55km S of Bireun, Indonesia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;77km W of Panguna, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;96km WSW of Paita, Peru&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Amazonas, Brazil&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azores Islands, Portugal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bio-Bio, Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cayman Islands region&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chuquisaca, Bolivia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dominican Republic region&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;eastern Turkey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gansu-Ningxia border region, China&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Halmahera, Indonesia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jamaica region&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kepulauan Kai, Indonesia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lac Kivu region, Congo-Rwanda-Uganda&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mona Passage, Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;near the coast of northern Peru&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;north of Severnaya Zemlya&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;northwest of the Kuril Islands&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;off the coast of El Salvador&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;off the east coast of the North Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;offshore Maule, Chile&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Papua, Indonesia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Russia-Mongolia border region&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sea of Okhotsk&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;south of Alaska&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;southeast of Shikoku, Japan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Southwest Indian Ridge&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Taiwan region&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;western Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;118km SSW of Atka, Alaska&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;182km SW of Bella Bella, Canada&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;29km SE of Blenheim, New Zealand&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;50km NE of Namie, Japan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;67km WSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;6km W of Sechura, Peru&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;91km SSE of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Afghanistan-Pakistan border region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Auckland Islands, New Zealand region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Beni, Bolivia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Caspian Sea, offshore Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Chiapas, Mexico&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;eastern New Guinea region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fox Islands, Aleutian Islands, Alaska&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gulf of Paria, Venezuela&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Isla Angel de la Guarda, Baja California, Mexico&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kepulauan Aru region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kyrgyzstan-Xinjiang border region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Macquarie Island region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mindanao, Philippines&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;near the coast of Fujian, China&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;near the west coast of Colombia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;north of Honduras&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;northern Sumatra, Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;off the coast of Colima, Mexico&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;off the coast of Tarapaca, Chile&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;offshore Honduras&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Panama-Colombia border region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Santiago Del Estero, Argentina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South Georgia Island region&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;South Shetland Islands&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;southern Peru&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sunda Strait, Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Trinidad region, Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;west of the Bonin Islands, Japan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Yellowstone National Park, Wyoming&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;111km NNW of Nggilat, Indonesia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;152km ESE of Neiafu, Tonga&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;23km ESE of Aitape, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;272km ESE of Hotan, China&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;41km SSW of Coquimbo, Chile&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;60km WNW of Iquique, Chile&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;83km E of Khash, Iran&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Apure, Venezuela&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Balleny Islands region&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;British Columbia, Canada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;central Mid-Atlantic Ridge&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;East of the South Sandwich Islands&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kashmir-India border region&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kodiak Island region, Alaska&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Leyte, Philippines&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mauritius - Reunion region&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Myanmar-China border region&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;near the north coast of Colombia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ninigo Islands region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;northern Colombia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;off the coast of Aisen, Chile&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;off the coast of Oregon&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;offshore Central California&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Oruro, Bolivia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Puerto Rico region&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Samoa Islands&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Simeulue, Indonesia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;south of the Aleutian Islands&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;southern East Pacific Rise&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Strait of Gibraltar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tierra del Fuego, Magallanes, Chile&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Veracruz, Mexico&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;western Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;115km ENE of Taron, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;170km NNE of Bathsheba, Barbados&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;1km E of Lixourion, Greece&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;25km S of Paracas, Peru&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;292km NW of Raoul Island, New Zealand&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;46km SSW of Hualian, Taiwan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;61km S of Pirgos, Greece&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;86km NW of Nuku`alofa, Tonga&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Buru, Indonesia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;central Turkey&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cuba region&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;eastern Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gujarat, India&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;India-Pakistan border region&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kazakhstan-Xinjiang border region&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Koryakskiy Avtonomnyy Okrug, Russia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Los Lagos, Chile&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mendoza, Argentina&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;near the coast of Aisen, Chile&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;near the south coast of Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;North Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;northern Italy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;off the coast of Bio-Bio, Chile&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;off the coast of South Africa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;offshore Coquimbo, Chile&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Pagan region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Red Sea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;San Juan, Argentina&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sonora, Mexico&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;south of the Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;southern Iran&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sulawesi, Indonesia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Timor Sea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Visayan Sea, Philippines&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Xinjiang-Xizang border region&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;110km NW of Nago, Japan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;142km SW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;20km NNW of La Union, Mexico&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;251km ENE of Kuril&apos;sk, Russia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;38km SSE of Adipala, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;60km E of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;82km NNE of Hihifo, Tonga&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Antofagasta, Chile&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bali region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bouvet Island region&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;central Italy&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Coquimbo, Chile&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;east of the North Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guadeloupe region, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kalimantan, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kermadec Islands region&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Laptev Sea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Maui region, Hawaii&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mozambique Channel&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;near the east coast of the Kamchatka Peninsula, Russia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;northern Algeria&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Novaya Zemlya, Russia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;off the coast of northern Peru&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;offshore Bio-Bio, Chile&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;offshore Valparaiso, Chile&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Prince Edward Islands region&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Salta, Argentina&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sicily, Italy&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;south of Sumbawa, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Southern California&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tianjin-Hebei border region, China&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;western Sichuan, China&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;118km WNW of Raoul Island, New Zealand&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;187km WSW of Bella Bella, Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;31km N of Rabaul, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;53km NNE of Isangel, Vanuatu&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;69km SE of Sinabang, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;7km NNW of Lixourion, Greece&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;93km SE of Ozernovskiy, Russia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Aisen, Chile&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Austria-Italy-Slovenia border region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bering Sea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Catamarca, Argentina&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;China-Russia-North Korea border region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dodecanese Islands, Greece&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;eastern Russia-northeastern China border region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Haida Gwaii Region, Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Isla Chiloe, Los Lagos, Chile&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kepulauan Babar, Indonesia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kyushu, Japan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Magadanskaya Oblast&apos;, Russia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mindoro, Philippines&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;near the coast of Libya&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;near the west coast of Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;north of Macquarie Island&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Northern Territory, Australia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;off the coast of Coquimbo, Chile&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;off the coast of Valparaiso, Chile&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;offshore Jalisco, Mexico&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Panama-Costa Rica border region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rota region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Savu Sea&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;South Indian Ocean&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;southeast central Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;southern Qinghai, China&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Svalbard region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tristan da Cunha region&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;west of the Queen Charlotte Islands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yemen&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;101km SW of Atka, Alaska&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;138km NNW of Amukta Island, Alaska&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;18km W of Chivay, Peru&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;240km E of Enarotali, Indonesia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;35km NNE of Masterton, New Zealand&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;58km WSW of Agrihan, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;81km S of Pirgos, Greece&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Andreanof Islands, Aleutian Islands, Alaska&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Baffin Island region, Nunavut, Canada&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bonin Islands, Japan region&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Central California&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Colombia-Ecuador border region&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;east of Guadeloupe, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Golfo de Fonseca, Honduras&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Henan-Shandong border region, China&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Jiangsu, China&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kepulauan Sula, Indonesia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lake Rukwa region, Tanzania&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Martinique region, Windward Islands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Morelos, Mexico&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;near the coast of western Turkey&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;New Guinea, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;northeastern Iran&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;northwestern Kashmir&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;off the coast of Los Lagos, Chile&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;off the west coast of the South Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;offshore Northern California&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Philippine Islands region&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saint Lucia region, Windward Islands&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sibuyan Sea, Philippines&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;south of Lombok, Indonesia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Southeastern Alaska&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;southwestern Ryukyu Islands, Japan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tarapaca, Chile&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Uttaranchal, India&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;western Mongolia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;101km WSW of Mutis, Colombia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;139km ESE of Petropavlovsk-Kamchatskiy, Russia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;18km WNW of San Marcos, Mexico&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;244km WNW of Marion Island, Prince Edward Islands&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;36km N of Gueiria, Venezuela&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;59km E of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;81km SSE of Panguna, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Antarctica&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Baja California Sur, Mexico&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;central East Pacific Rise&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Comoros region&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;east of Severnaya Zemlya&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Greater Los Angeles area, California&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hindu Kush region, Afghanistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Jilin-Heilongjiang border region, China&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kepulauan Talaud, Indonesia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lake Tanganyika region, Dem. Republic of the Congo-Tanzania&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Masbate region, Philippines&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Moro Gulf, Mindanao, Philippines&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;near the east coast of Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;New Ireland region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;northeastern Sakha, Russia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;northwestern Sakha, Russia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;off the coast of Nayarit, Mexico&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;offshore Araucania, Chile&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;offshore Oaxaca, Mexico&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Potosi, Bolivia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saipan region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sichuan-Gansu border region, China&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;south of Panama&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;southeastern Iran&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;southwestern Sakha, Russia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tarija, Bolivia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Valparaiso, Chile&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;western Montana&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;111km NNE of Tobelo, Indonesia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;144km W of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;21km SSE of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;262km ESE of Sola, Vanuatu&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;40km W of Agrihan, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;60km SE of Kegen, Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;82km SSW of Atka, Alaska&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Anzoategui, Venezuela&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bali Sea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bristol Bay&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;central Mediterranean Sea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cordoba, Argentina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;east of the Philippine Islands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Estado de Mexico, Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guam region&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hubei, China&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kamchatka Peninsula, Russia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kermadec Islands, New Zealand&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lara, Venezuela&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Maule, Chile&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;near the north coast of Chukotskiy Avtonomnyy Okrug, Russia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nicobar Islands, India region&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Northern California&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Oaxaca, Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;off the coast of Oaxaca, Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;offshore Carabobo, Venezuela&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;offshore Veracruz, Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Puebla, Mexico&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Samar, Philippines&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sikkim, India&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;south of Tasmania&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;southern Chile-Argentina border region&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;State of Yap, Federated States of Micronesia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tierra del Fuego, Argentina region&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vanuatu region&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;western Turkey&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;113km SE of Amsterdam Island,&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;157km SW of Sungaipenuh, Indonesia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;23km ESE of Suncho Corral, Argentina&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;282km SW of Vaini, Tonga&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;46km ESE of Blenheim, New Zealand&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;61km N of Hatillo, Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;84km SE of Ozernovskiy, Russia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Araucania, Chile&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Banaba, Kiribati region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Broken Ridge&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;central Mongolia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Crete, Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;East Timor region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Falkland Islands region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Guerrero, Mexico&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Iceland region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kashmir-Xinjiang border region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Komandorskiye Ostrova, Russia region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Liaoning, China&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Meghalaya, India region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Myanmar-India border region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;near the north coast of New Guinea, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;North Atlantic Ocean&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;northern East Pacific Rise&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;off the coast of Araucania, Chile&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;off the coast of Pakistan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;offshore Chiapas, Mexico&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Owen Fracture Zone region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Qinghai-Sichuan border region, China&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Samoa Islands region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;south of the Fiji Islands&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;southern Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sucre, Venezuela&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Timor region&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;western Xizang&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;134km SE of Kuril&apos;sk, Russia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;16km SE of Caburan, Philippines&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;199km NE of Bristol Island, South Sandwich Islands&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;32km W of Sola, Vanuatu&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;56km NNE of Vallenar, Chile&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;77km WNW of Ferndale, California&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;97km SE of Severo-Kuril&apos;sk, Russia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Amurskaya Oblast&apos;, Russia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Azores-Cape St. Vincent Ridge&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bismarck Sea&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Celebes Sea&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cochabamba, Bolivia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Drake Passage&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;eastern Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gansu-Qinghai border region, China&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hawaii region, Hawaii&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jan Mayen Island region&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kepulauan Mentawai region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lake Albert region, Uganda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Maldive Islands region&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mona Passage, Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;near the coast of Oaxaca, Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nepal-India border region&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;north of Svalbard&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;northwest of the Ryukyu Islands, Japan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;off the coast of Guerrero, Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;off the east coast of the South Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;offshore Michoacan, Mexico&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Peru-Bolivia border region&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ryukyu Islands, Japan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Seattle-Tacoma urban area, Washington&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;south of Australia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;southeast of Taiwan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;southwest of Sumatra, Indonesia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Turkmenistan-Iran border region&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;western Indian-Antarctic Ridge&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;122km SE of Petropavlovsk-Kamchatskiy, Russia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;189km SSE of L&apos;Esperance Rock, New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;31km SE of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;53km SW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;76km W of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;7km SSE of Ciudad Tecun Uman, Guatemala&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;94km NNE of L&apos;Esperance Rock, New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Alamagan region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Azerbaijan-Iran border region&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Catanduanes, Philippines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chitinskaya Oblast&apos;, Russia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dominica region, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;eastern Sea of Japan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Galapagos Islands, Ecuador region&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Haida Gwaii, Canada&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Izu Islands, Japan region&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kepulauan Barat Daya, Indonesia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;La Paz, Bolivia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Magallanes y Antartica Chilena, Chile&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Molucca Sea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;near the coast of Nicaragua&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Negros - Cebu region, Philippines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;north of New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;northern Xinjiang, China&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;off the coast of Costa Rica&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;off the east coast of Honshu, Japan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;offshore Libertador O&apos;Higgins, Chile&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Panay, Philippines&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Russia-Georgia border region&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Scotia Sea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;South Island of New Zealand&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;southeast Indian Ridge&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;southern Sumatra, Indonesia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tachira, Venezuela&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tuamotu Archipelago, French Polynesia region&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;western Afghanistan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yunnan, China&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;115km WNW of Raoul Island, New Zealand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;172km S of Ust&apos;-Kamchatsk Staryy, Russia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;25km SE of Buli, Taiwan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;2km N of Yacuanquer, Colombia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;46km W of Masachapa, Nicaragua&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;62km WSW of Panguna, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;88km W of Constitucion, Chile&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Acre, Brazil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ascension Island region&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Batan Islands region, Philippines&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Carlsberg Ridge&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ceram Sea, Indonesia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cyprus region&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;eastern Iran&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fiji region&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gulf of Aden&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ionian Sea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kenai Peninsula, Alaska&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kuril Islands&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Loyalty Islands, New Caledonia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Michoacan, Mexico&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;near the coast of Antofagasta, Chile&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;near the south coast of New Guinea, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;North Korea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Northern Mid-Atlantic Ridge&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;off the coast of Central America&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;off the coast of Southeastern Alaska&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;offshore El Salvador&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Region Metropolitana, Chile&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Santa Cruz Islands&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;south of Tonga&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;southern Italy&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sulu Archipelago, Philippines&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tobago region, Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Volcano Islands, Japan region&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Xizang-India-Myanmar border region&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;108km E of Miyako, Japan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;140km WNW of Neiafu, Tonga&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;19km SSW of Obihiro, Japan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;247km E of Kuril&apos;sk, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;36km SSW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;59km S of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;81km SSW of Atka, Alaska&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Antigua and Barbuda region, Leeward Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Baja California, Mexico&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bougainville region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;central Iran&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cook Strait, New Zealand&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;east of the Kuril Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hokkaido, Japan region&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jujuy, Argentina&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kepulauan Tanimbar, Indonesia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Laos&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Maug Islands region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;near the east coast of Koryakskiy Avtonomnyy Okrug, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nias region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;northern Alaska&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Norwegian Sea&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;off the coast of Northern California&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;offshore Atacama, Chile&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;offshore Sucre, Venezuela&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Primor&apos;ye, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sakhalin, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sichuan-Yunnan border region, China&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;south of Sumba, Indonesia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Southern Alaska&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;southwestern Siberia, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tatar Strait, Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Vancouver Island, Canada region&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;western Nei Mongol, China&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;135km SE of Severo-Kuril&apos;sk, Russia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;16km SSW of Visokoi Island,&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;218km SSE of Bristol Island, South Sandwich Islands&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;33km SW of Jiquilillo, Nicaragua&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;56km WSW of Linqiong, China&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;78km NE of L&apos;Esperance Rock, New Zealand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;98km W of Panguna, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Anatahan region, Northern Mariana Islands&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Babuyan Islands region, Philippines&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bo Hai, China&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;central Afghanistan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colima, Mexico&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;east central Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;eastern Xizang&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Gansu, China&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hebei, China&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Java Sea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kepulauan Obi, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lake Baykal region, Russia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Manipur, India region&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mongolia-China border region&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;near the coast of southern Peru&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;North Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Northwest Territories, Canada&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;off the coast of Hokkaido, Japan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;off the west coast of Baja California&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;offshore Miranda, Venezuela&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Peru-Brazil border region&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sabah, Malaysia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Seram, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;south of Bali, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;southeast of the Loyalty Islands&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;southwestern Atlantic Ocean&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tajikistan-Xinjiang border region&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;western Iran&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;116km NW of L&apos;Esperance Rock, New Zealand&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;177km ENE of Flying Fish Cove, Christmas Island&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;27km NNW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;47km SSW of Sigli, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;4km SE of Sagbayan, Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;66km SW of Lata, Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;89km SE of Bandar Bushehr, Iran&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Admiralty Islands region, Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Assam, India&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bay of Bengal&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Caspian Sea&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chagos Archipelago region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;D&apos;Entrecasteaux Islands region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;eastern Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Flores region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gulf of Alaska&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Iran-Pakistan border region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Luzon, Philippines&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mid-Indian Ridge&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;near the coast of central Peru&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;near the south coast of Papua, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;north of Ascension Island&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;northern Peru&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;off the coast of central Peru&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;off the coast of southern Peru&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;offshore Guatemala&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Palau region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Revilla Gigedo Islands region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Santa Cruz Islands region&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South Atlantic Ocean&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;South Pacific Ocean&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;southern Mid-Atlantic Ridge&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sumba region, Indonesia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tonga&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;West Chile Rise&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Xizang-Qinghai border region&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[sum:mag:ok]' type='shape'>
+            <map to='asterisk'>
+              <bucket>6.2000000000000002</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>7.4000000000000004</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>12.399999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>13.199999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>14.1</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>18.699999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>19.399999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>21.199999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>25.399999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>26.400000000000002</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>27.399999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>32.899999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>35.199999999999996</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>38.899999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>40.5</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>45.000000000000007</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>47.0</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>52.299999999999997</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>55.900000000000006</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>61.300000000000004</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>65.299999999999997</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>70.800000000000011</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>77.299999999999997</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>83.999999999999986</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>93.59999999999998</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>100.59999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>110.09999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>118.89999999999998</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>129.19999999999999</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>138.5</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>156.5</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>178.19999999999996</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>205.70000000000002</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>225.69999999999996</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>265.09999999999997</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>341.40000000000003</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>558.70000000000016</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>612.30000000000007</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>724.8000000000003</bucket>
+            </map>
+            <map to='asterisk'>
+              <bucket>6147.1000000000122</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>7.0</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>9.0999999999999996</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>12.0</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>12.9</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>13.600000000000001</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>15.9</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>19.099999999999998</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>20.0</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>24.5</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>26.099999999999998</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>26.900000000000002</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>31.899999999999999</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>33.5</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>38.100000000000001</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>39.899999999999999</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>41.899999999999999</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>46.199999999999996</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>49.100000000000009</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>54.000000000000007</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>59.200000000000003</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>63.199999999999996</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>68.0</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>75.599999999999994</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>81.599999999999994</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>89.099999999999994</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>97.199999999999989</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>106.10000000000001</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>115.40000000000001</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>127.8</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>134.99999999999997</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>146.49999999999997</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>162.70000000000002</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>196.29999999999995</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>213.79999999999998</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>245.69999999999996</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>313.39999999999998</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>424.40000000000003</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>671.80000000000041</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>1233.3</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>10773.000000000116</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>50305.800000000003</bucket>
+            </map>
+            <map to='circle'>
+              <bucket>54567.200000000004</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>6.2999999999999998</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>7.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>12.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>13.300000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>14.199999999999999</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>18.799999999999997</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>19.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>21.299999999999997</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>25.499999999999996</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>26.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>27.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>33.100000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>35.400000000000006</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>38.999999999999993</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>40.700000000000003</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>45.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>47.200000000000003</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>52.800000000000004</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>56.000000000000007</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>61.499999999999993</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>66.0</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>70.900000000000006</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>77.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>84.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>93.599999999999994</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>100.89999999999999</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>113.60000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>121.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>129.30000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>138.59999999999999</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>156.99999999999997</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>179.19999999999999</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>206.40000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>233.5</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>273.80000000000001</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>356.79999999999995</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>566.90000000000009</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>731.60000000000048</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>748.20000000000027</bucket>
+            </map>
+            <map to='diamond'>
+              <bucket>43001.599999998674</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>6.5</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>7.7000000000000002</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>12.699999999999999</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>13.4</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>14.6</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>18.899999999999999</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>19.600000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>21.899999999999999</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>25.800000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>26.600000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>29.5</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>33.299999999999997</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>37.5</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>39.399999999999999</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>41.100000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>45.700000000000003</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>47.5</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>53.100000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>58.100000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>62.199999999999996</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>66.900000000000006</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>73.899999999999991</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>78.600000000000009</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>85.799999999999997</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>96.5</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>101.8</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>114.10000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>125.50000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>130.30000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>142.89999999999998</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>158.30000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>185.99999999999997</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>209.10000000000002</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>240.19999999999999</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>296.30000000000001</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>391.00000000000017</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>585.4000000000002</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>1006.9000000000005</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>3014.8999999999969</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>6.5999999999999996</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>6.7999999999999998</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>7.7999999999999998</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>12.800000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>13.5</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>14.800000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>18.900000000000002</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>19.799999999999997</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>22.100000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>25.899999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>26.700000000000003</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>31.5</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>33.399999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>37.600000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>39.5</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>41.600000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>45.899999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>47.600000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>53.100000000000009</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>58.5</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>62.300000000000004</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>67.0</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>74.599999999999994</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>79.100000000000009</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>86.200000000000003</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>96.700000000000003</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>103.49999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>114.39999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>127.00000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>131.79999999999998</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>143.09999999999999</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>160.0</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>186.80000000000001</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>209.49999999999997</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>241.09999999999994</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>299.60000000000002</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>393.00000000000017</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>610.30000000000041</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>1101.1000000000006</bucket>
+            </map>
+            <map to='left-triangle'>
+              <bucket>4409.899999999996</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>6.0</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>7.2000000000000002</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>12.199999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>13.1</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>13.800000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>18.199999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>19.199999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>20.399999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>24.799999999999997</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>25.0</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>26.200000000000003</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>27.199999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>32.399999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>34.100000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>38.600000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>40.100000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>44.799999999999997</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>46.500000000000007</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>50.0</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>54.799999999999997</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>60.199999999999989</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>63.70000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>68.799999999999997</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>76.099999999999994</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>83.300000000000011</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>92.399999999999991</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>100.09999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>107.2</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>118.0</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>128.5</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>136.49999999999997</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>149.59999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>172.19999999999999</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>200.90000000000001</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>220.69999999999993</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>253.39999999999998</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>316.5</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>548.4000000000002</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>699.3000000000003</bucket>
+            </map>
+            <map to='plus'>
+              <bucket>1477.3</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>6.7000000000000002</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>6.9000000000000004</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>8.0</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>12.899999999999999</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>13.6</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>14.9</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>19.0</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>19.800000000000001</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>24.299999999999997</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>26.0</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>26.899999999999999</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>31.600000000000001</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>33.400000000000006</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>37.799999999999997</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>39.600000000000001</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>41.799999999999997</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>45.900000000000006</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>48.199999999999996</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>53.699999999999989</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>58.799999999999997</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>62.899999999999999</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>67.200000000000003</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>74.900000000000006</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>79.900000000000006</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>87.199999999999989</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>96.899999999999991</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>105.89999999999999</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>115.09999999999998</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>127.19999999999996</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>133.30000000000001</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>144.5</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>161.89999999999998</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>189.09999999999994</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>213.09999999999999</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>241.19999999999996</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>303.70000000000005</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>416.60000000000014</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>663.40000000000009</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>1200.9999999999995</bucket>
+            </map>
+            <map to='right-triangle'>
+              <bucket>5483.2000000000135</bucket>
+            </map>
+            <map to='square'>
+              <bucket>7.0999999999999996</bucket>
+            </map>
+            <map to='square'>
+              <bucket>12.1</bucket>
+            </map>
+            <map to='square'>
+              <bucket>13.0</bucket>
+            </map>
+            <map to='square'>
+              <bucket>13.699999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>18.100000000000001</bucket>
+            </map>
+            <map to='square'>
+              <bucket>19.100000000000001</bucket>
+            </map>
+            <map to='square'>
+              <bucket>20.299999999999997</bucket>
+            </map>
+            <map to='square'>
+              <bucket>24.800000000000001</bucket>
+            </map>
+            <map to='square'>
+              <bucket>26.199999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>27.099999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>32.099999999999994</bucket>
+            </map>
+            <map to='square'>
+              <bucket>34.0</bucket>
+            </map>
+            <map to='square'>
+              <bucket>38.399999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>40.0</bucket>
+            </map>
+            <map to='square'>
+              <bucket>41.900000000000006</bucket>
+            </map>
+            <map to='square'>
+              <bucket>46.299999999999997</bucket>
+            </map>
+            <map to='square'>
+              <bucket>49.5</bucket>
+            </map>
+            <map to='square'>
+              <bucket>54.400000000000006</bucket>
+            </map>
+            <map to='square'>
+              <bucket>59.399999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>63.200000000000003</bucket>
+            </map>
+            <map to='square'>
+              <bucket>68.699999999999989</bucket>
+            </map>
+            <map to='square'>
+              <bucket>75.899999999999991</bucket>
+            </map>
+            <map to='square'>
+              <bucket>83.0</bucket>
+            </map>
+            <map to='square'>
+              <bucket>90.0</bucket>
+            </map>
+            <map to='square'>
+              <bucket>97.999999999999986</bucket>
+            </map>
+            <map to='square'>
+              <bucket>106.3</bucket>
+            </map>
+            <map to='square'>
+              <bucket>116.89999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>128.29999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>135.19999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>149.39999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>171.99999999999997</bucket>
+            </map>
+            <map to='square'>
+              <bucket>196.5</bucket>
+            </map>
+            <map to='square'>
+              <bucket>217.19999999999999</bucket>
+            </map>
+            <map to='square'>
+              <bucket>249.89999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>315.59999999999991</bucket>
+            </map>
+            <map to='square'>
+              <bucket>485.89999999999998</bucket>
+            </map>
+            <map to='square'>
+              <bucket>680.70000000000061</bucket>
+            </map>
+            <map to='square'>
+              <bucket>1266.2999999999995</bucket>
+            </map>
+            <map to='square'>
+              <bucket>22971.499999999909</bucket>
+            </map>
+            <map to='square'>
+              <bucket>54567.199999998134</bucket>
+            </map>
+            <map to='times'>
+              <bucket>6.0999999999999996</bucket>
+            </map>
+            <map to='times'>
+              <bucket>7.2999999999999998</bucket>
+            </map>
+            <map to='times'>
+              <bucket>12.300000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>13.100000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>13.899999999999999</bucket>
+            </map>
+            <map to='times'>
+              <bucket>18.5</bucket>
+            </map>
+            <map to='times'>
+              <bucket>19.300000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>21.100000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>25.199999999999996</bucket>
+            </map>
+            <map to='times'>
+              <bucket>26.299999999999997</bucket>
+            </map>
+            <map to='times'>
+              <bucket>27.200000000000003</bucket>
+            </map>
+            <map to='times'>
+              <bucket>32.700000000000003</bucket>
+            </map>
+            <map to='times'>
+              <bucket>34.799999999999997</bucket>
+            </map>
+            <map to='times'>
+              <bucket>38.700000000000003</bucket>
+            </map>
+            <map to='times'>
+              <bucket>40.400000000000006</bucket>
+            </map>
+            <map to='times'>
+              <bucket>44.899999999999999</bucket>
+            </map>
+            <map to='times'>
+              <bucket>46.700000000000003</bucket>
+            </map>
+            <map to='times'>
+              <bucket>50.300000000000004</bucket>
+            </map>
+            <map to='times'>
+              <bucket>55.199999999999996</bucket>
+            </map>
+            <map to='times'>
+              <bucket>60.299999999999997</bucket>
+            </map>
+            <map to='times'>
+              <bucket>64.299999999999997</bucket>
+            </map>
+            <map to='times'>
+              <bucket>70.799999999999997</bucket>
+            </map>
+            <map to='times'>
+              <bucket>77.200000000000003</bucket>
+            </map>
+            <map to='times'>
+              <bucket>83.600000000000009</bucket>
+            </map>
+            <map to='times'>
+              <bucket>92.59999999999998</bucket>
+            </map>
+            <map to='times'>
+              <bucket>100.20000000000002</bucket>
+            </map>
+            <map to='times'>
+              <bucket>109.49999999999999</bucket>
+            </map>
+            <map to='times'>
+              <bucket>118.69999999999999</bucket>
+            </map>
+            <map to='times'>
+              <bucket>128.89999999999995</bucket>
+            </map>
+            <map to='times'>
+              <bucket>137.90000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>149.79999999999998</bucket>
+            </map>
+            <map to='times'>
+              <bucket>176.90000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>202.39999999999998</bucket>
+            </map>
+            <map to='times'>
+              <bucket>222.89999999999995</bucket>
+            </map>
+            <map to='times'>
+              <bucket>259.79999999999995</bucket>
+            </map>
+            <map to='times'>
+              <bucket>323.80000000000001</bucket>
+            </map>
+            <map to='times'>
+              <bucket>548.50000000000011</bucket>
+            </map>
+            <map to='times'>
+              <bucket>708.80000000000041</bucket>
+            </map>
+            <map to='times'>
+              <bucket>1048.0000000000002</bucket>
+            </map>
+            <map to='times'>
+              <bucket>2296.4999999999991</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>6.4000000000000004</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>7.5999999999999996</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>12.6</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>13.399999999999999</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>14.300000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>18.800000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>19.599999999999998</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>21.300000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>25.5</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>26.599999999999998</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>27.799999999999997</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>33.200000000000003</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>35.5</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>39.0</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>40.899999999999999</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>45.600000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>47.300000000000004</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>53.0</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>56.500000000000007</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>61.600000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>66.400000000000006</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>72.700000000000003</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>78.100000000000009</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>85.399999999999991</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>94.900000000000006</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>101.09999999999999</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>113.70000000000002</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>123.09999999999998</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>129.80000000000001</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>142.09999999999999</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>158.19999999999999</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>182.39999999999998</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>208.39999999999995</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>236.79999999999995</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>282.5</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>364.70000000000005</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>573.30000000000041</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>870.90000000000043</bucket>
+            </map>
+            <map to='triangle'>
+              <bucket>2155.799999999997</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[sum:mag:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>6.4000000000000004</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>8.6999999999999993</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>7.9000000000000004</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>54567.199999998134</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>8.3000000000000007</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>1048.0000000000002</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>87.199999999999989</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>6.7000000000000002</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>7.0999999999999996</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>6.5</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>8.8000000000000007</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6.0999999999999996</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>8.4000000000000004</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>7.7000000000000002</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>8.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7.5</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>43001.599999998674</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>6.2000000000000002</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>8.5</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>6.7999999999999998</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>7.2000000000000002</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>9.5999999999999996</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>6.9000000000000004</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>7.2999999999999998</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>7.5999999999999996</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>7.7999999999999998</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>9.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>12.800000000000001</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6147.1000000000122</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>6.2999999999999998</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>8.5999999999999996</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>8.0999999999999996</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>9.0999999999999996</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>7.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>7.4000000000000004</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>6.5999999999999996</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>9.1999999999999993</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>50305.800000000003</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>6.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>8.1999999999999993</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='query' id='query_AB932462C9D2439790F6C85EFC2ABE69'>
+            <properties context=''>
+              <relation connection='excel-direct.132oi4d1e6kb1r1g76qyt1borsso' name='query' table='[query$]' type='table'>
+                <columns gridOrigin='A1:R8314:no:A1:R8314:0' header='yes' outcome='6'>
+                  <column datatype='string' name='time' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='datetime' name='Time' ordinal='2' />
+                  <column datatype='real' name='F4' ordinal='3' />
+                  <column datatype='real' name='latitude' ordinal='4' />
+                  <column datatype='real' name='longitude' ordinal='5' />
+                  <column datatype='real' name='depth' ordinal='6' />
+                  <column datatype='real' name='mag' ordinal='7' />
+                  <column datatype='string' name='magType' ordinal='8' />
+                  <column datatype='integer' name='nst' ordinal='9' />
+                  <column datatype='real' name='gap' ordinal='10' />
+                  <column datatype='real' name='dmin' ordinal='11' />
+                  <column datatype='real' name='rms' ordinal='12' />
+                  <column datatype='string' name='net' ordinal='13' />
+                  <column datatype='string' name='id' ordinal='14' />
+                  <column datatype='string' name='updated' ordinal='15' />
+                  <column datatype='string' name='place' ordinal='16' />
+                  <column datatype='string' name='type' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_28BDDBF99B77487CB1AB074E2A41E48A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_FC8AB961B18C41C98BAA3365E9A4A1FE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_EEF26A946D5E44FDBA6EAF5B02F44EFC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Sheet 3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='query (Copy of Mag6PlusEarthquakes_1900-2013)' name='federated.0zveiaa0g6zh6f17shssk11dhdgk' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0zveiaa0g6zh6f17shssk11dhdgk'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Mag' datatype='real' name='[mag]' role='measure' type='quantitative' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
+            <column-instance column='[mag]' derivation='Sum' name='[sum:mag:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]'>
+            <groupfilter function='level-members' level='[place]' user:ui-action-filter='[Action1_28BDDBF99B77487CB1AB074E2A41E48A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:place:nk]' />
+              <groupfilter function='empty-level' member='[none:place:nk]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[yr:Date:ok]'>
+            <groupfilter from='1900' function='range' level='[yr:Date:ok]' to='2013' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]</column>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]</column>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[yr:Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[avg:longitude:qk]' field-type='quantitative' max='29257874.120716807' min='-15849773.257205274' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[avg:latitude:qk]' field-type='quantitative' max='12980263.869143458' min='-12382753.831323281' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]' />
+              <size column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:mag:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[avg:latitude:qk]</rows>
+        <cols>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[avg:longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{35D424A1-95D1-449F-A717-4F3413076B9E}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='query (Copy of Mag6PlusEarthquakes_1900-2013)' name='federated.0zveiaa0g6zh6f17shssk11dhdgk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zveiaa0g6zh6f17shssk11dhdgk'>
+            <column caption='Below7' datatype='integer' name='[Calculation_412360871430291456]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [mag] &lt; 7 THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='7ANDABOVE' datatype='integer' name='[Calculation_412360871431237633]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [mag] &gt;= 7 THEN 1 ELSE 0 END' />
+            </column>
+            <column caption='Mag' datatype='real' name='[mag]' role='measure' type='quantitative' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_412360871430291456]' derivation='Sum' name='[sum:Calculation_412360871430291456:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_412360871431237633]' derivation='Sum' name='[sum:Calculation_412360871431237633:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]'>
+            <groupfilter function='union' user:ui-action-filter='[Action2_FC8AB961B18C41C98BAA3365E9A4A1FE]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[place]' member='&quot;88km W of Constitucion, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Easter Island region&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Isla Chiloe, Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;near the coast of Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;South of the Kermadec Islands&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southeast central Pacific Ocean&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southeast of Easter Island&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southern East Pacific Rise&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;West Chile Rise&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]'>
+            <groupfilter function='level-members' level='[none:place:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871431237633:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]</column>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]' />
+              <lod column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871431237633:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]' />
+              <lod column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]' />
+              <lod column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]</rows>
+        <cols>([federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871431237633:qk] + [federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk])</cols>
+      </table>
+      <simple-id uuid='{6A3E8EA9-7C20-45A2-B8B8-1C10F1660621}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='query (Copy of Mag6PlusEarthquakes_1900-2013)' name='federated.0zveiaa0g6zh6f17shssk11dhdgk' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zveiaa0g6zh6f17shssk11dhdgk'>
+            <column caption='Depth' datatype='real' name='[depth]' role='measure' type='quantitative' />
+            <column caption='Id' datatype='string' name='[id]' role='dimension' type='nominal' />
+            <column caption='Mag' datatype='real' name='[mag]' role='measure' type='quantitative' />
+            <column-instance column='[id]' derivation='None' name='[none:id:nk]' pivot='key' type='nominal' />
+            <column-instance column='[mag]' derivation='None' name='[none:mag:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[place]' derivation='None' name='[none:place:nk]' pivot='key' type='nominal' />
+            <column caption='Place' datatype='string' name='[place]' role='dimension' type='nominal' />
+            <column-instance column='[depth]' derivation='Sum' name='[sum:depth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mag]' derivation='Sum' name='[sum:mag:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]'>
+            <groupfilter function='union' user:ui-action-filter='[Action2_FC8AB961B18C41C98BAA3365E9A4A1FE]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[place]' member='&quot;88km W of Constitucion, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Easter Island region&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;Isla Chiloe, Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;near the coast of Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Aisen, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;off the coast of Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Araucania, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Bio-Bio, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;offshore Los Lagos, Chile&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;South of the Kermadec Islands&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southeast central Pacific Ocean&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southeast of Easter Island&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;southern East Pacific Rise&quot;' />
+              <groupfilter function='member' level='[place]' member='&quot;West Chile Rise&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:mag:qk]' included-values='in-range'>
+            <min>7.0</min>
+            <max>9.5999999999999996</max>
+          </filter>
+          <filter class='categorical' column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]'>
+            <groupfilter function='level-members' level='[none:place:nk]' user:ui-enumeration='all' user:ui-exclude='true' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]</column>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:mag:qk]</column>
+            <column>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[Action (Place)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:mag:qk]' />
+              <lod column='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:id:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:depth:qk]</rows>
+        <cols>[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:mag:qk]</cols>
+      </table>
+      <simple-id uuid='{A0824BCE-E0A3-4EA1-9E35-198D5F15A776}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Sheet 1' w='98400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='10' name='Sheet 2' w='49200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='14' name='Sheet 3' w='49200' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='17' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='10' is-fixed='true' name='Sheet 2' w='49200' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='14' is-fixed='true' name='Sheet 3' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8A957D1B-EC40-4D31-84BC-9298DFEB18AA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{851F9B4A-D409-4DBE-904F-6D056BEEBB7F}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[none:place:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:mag:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E16F17E6-F6C4-4B80-ACDD-C2C3A3EEF68C}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0zveiaa0g6zh6f17shssk11dhdgk].[sum:Calculation_412360871430291456:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5617329B-A7AE-46FA-893C-793252FFE0F0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{6D6F4608-54DD-48FB-9550-24C39EEABD84}' />
+    </window>
+  </windows>
+</workbook>

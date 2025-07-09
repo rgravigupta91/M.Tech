@@ -1,0 +1,56 @@
+gender,ethnicity,education,lunch,test_prep_course,math_score,reading_score,writing_score,total_score,training_institute
+female,group C,associate's degree,free/reduced,none,76,65,80,221,Nature Learning
+male,group D,high school,standard,none,63,71,51,185,Nature Learning
+male,group D,college,standard,none,90,62,77,229,Nature Learning
+female,group C,Ph.D.,standard,none,68,60,84,212,Nature Learning
+male,group D,bachelor's degree,free/reduced,completed,66,91,67,224,Nature Learning
+male,group D,college,standard,completed,58,60,87,205,Speak Global Learning
+female,group C,Ph.D.,free/reduced,none,52,52,53,157,Speak Global Learning
+female,group C,associate's degree,standard,none,67,58,63,188,Speak Global Learning
+male,group B,Ph.D.,standard,none,79,71,73,223,Nature Learning
+male,group C,high school,free/reduced,none,47,82,70,199,Nature Learning
+male,group C,high school,standard,none,72,72,64,208,Nature Learning
+male,group D,bachelor's degree,standard,completed,75,77,77,229,Speak Global Learning
+female,group D,associate's degree,standard,none,88,46,70,204,Speak Global Learning
+male,group B,high school,standard,completed,61,73,63,197,Speak Global Learning
+male,group C,college,standard,completed,67,64,80,211,Nature Learning
+female,group C,college,standard,none,71,49,62,182,Speak Global Learning
+male,group E,associate's degree,standard,completed,82,74,73,229,Speak Global Learning
+female,group B,associate's degree,free/reduced,none,69,63,65,197,Nature Learning
+female,group B,bachelor's degree,free/reduced,none,66,61,58,185,Speak Global Learning
+female,group D,bachelor's degree,standard,none,85,80,62,227,Nature Learning
+female,group D,Ph.D.,standard,none,62,80,75,217,Nature Learning
+female,group C,college,standard,none,68,79,79,226,Nature Learning
+female,group C,bachelor's degree,standard,completed,56,66,43,165,Speak Global Learning
+male,group B,associate's degree,standard,completed,70,44,70,184,Nature Learning
+female,group C,associate's degree,standard,none,56,53,71,180,Speak Global Learning
+male,group D,college,standard,completed,82,77,87,246,Speak Global Learning
+female,group C,college,free/reduced,none,69,87,59,215,Nature Learning
+female,group C,college,standard,completed,76,84,47,207,Nature Learning
+female,group E,high school,free/reduced,completed,55,69,69,193,Speak Global Learning
+male,group B,college,free/reduced,none,64,84,96,244,Nature Learning
+female,group B,associate's degree,standard,completed,39,42,46,127,Speak Global Learning
+male,group D,associate's degree,free/reduced,none,63,67,66,196,Nature Learning
+male,group B,associate's degree,free/reduced,completed,63,51,63,177,Nature Learning
+female,group E,college,free/reduced,completed,64,56,86,206,Nature Learning
+male,group C,high school,free/reduced,completed,56,59,69,184,Speak Global Learning
+female,group B,master's degree,free/reduced,completed,69,57,77,203,Speak Global Learning
+male,group C,Ph.D.,free/reduced,completed,40,69,77,186,Speak Global Learning
+male,group C,associate's degree,free/reduced,completed,56,86,73,215,Nature Learning
+male,group E,high school,standard,none,53,68,57,178,Speak Global Learning
+male,group D,Ph.D.,standard,completed,59,87,71,217,Speak Global Learning
+male,group B,Ph.D.,free/reduced,none,53,74,73,200,Speak Global Learning
+female,group C,bachelor's degree,standard,none,58,76,71,205,Nature Learning
+female,group E,associate's degree,standard,none,72,76,54,202,Nature Learning
+male,group D,college,standard,completed,67,56,76,199,Nature Learning
+male,group E,bachelor's degree,standard,none,84,89,61,234,Nature Learning
+male,group E,high school,standard,completed,74,81,44,199,Speak Global Learning
+female,group B,high school,standard,completed,69,76,50,195,Speak Global Learning
+female,group B,high school,standard,none,64,40,55,159,Nature Learning
+male,group C,high school,standard,none,76,66,38,180,Speak Global Learning
+male,group A,Ph.D.,standard,completed,69,70,61,200,Speak Global Learning
+male,group D,Ph.D.,free/reduced,none,62,68,64,194,Speak Global Learning
+female,group C,bachelor's degree,standard,none,52,45,72,169,Nature Learning
+female,group D,high school,standard,none,55,72,67,194,Nature Learning
+female,group D,associate's degree,standard,completed,55,90,67,212,Nature Learning
+female,group E,college,free/reduced,none,30,48,82,160,Nature Learning

@@ -1,0 +1,2710 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Billionaire+detailed' inline='true' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Billionaire+detailed' name='textscan.1yjvcq00dd83oe1fv2sy01v3t0uz'>
+            <connection class='textscan' directory='Data/QP2' filename='Billionaire+detailed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1yjvcq00dd83oe1fv2sy01v3t0uz' name='Billionaire+detailed.csv' table='[Billionaire+detailed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='integer' name='Rank' ordinal='1' />
+            <column datatype='string' name='Country' ordinal='2' />
+            <column datatype='integer' name='Childrens' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Industry' ordinal='5' />
+            <column datatype='string' name='NetWorth' ordinal='6' />
+            <column datatype='string' name='Source' ordinal='7' />
+            <column datatype='string' name='Citizenship' ordinal='8' />
+            <column datatype='string' name='Education' ordinal='9' />
+            <column datatype='boolean' name='Self_made' ordinal='10' />
+            <column datatype='string' name='Status' ordinal='11' />
+            <column datatype='string' name='Residence' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1yjvcq00dd83oe1fv2sy01v3t0uz' name='Billionaire+detailed.csv' table='[Billionaire+detailed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='integer' name='Rank' ordinal='1' />
+            <column datatype='string' name='Country' ordinal='2' />
+            <column datatype='integer' name='Childrens' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Industry' ordinal='5' />
+            <column datatype='string' name='NetWorth' ordinal='6' />
+            <column datatype='string' name='Source' ordinal='7' />
+            <column datatype='string' name='Citizenship' ordinal='8' />
+            <column datatype='string' name='Education' ordinal='9' />
+            <column datatype='boolean' name='Self_made' ordinal='10' />
+            <column datatype='string' name='Status' ordinal='11' />
+            <column datatype='string' name='Residence' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Childrens</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Childrens]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Childrens</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NetWorth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NetWorth]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>NetWorth</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Source]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Source</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Citizenship</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Citizenship]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Citizenship</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self_made</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Self_made]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Self_made</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Status]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Status</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Residence]</local-name>
+            <parent-name>[Billionaire+detailed.csv]</parent-name>
+            <remote-alias>Residence</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Age (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5.46' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;Eswatini (Swaziland)&quot;' value='&quot;Eswatini&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+      <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Billionaire+detailed.csv' datatype='table' name='[__tableau_internal_object_id__].[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]' role='measure' type='quantitative' />
+      <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1013309962911875072]' derivation='Avg' name='[avg:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1013309962911875072]' derivation='Count' name='[cnt:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Country]' derivation='Count' name='[cnt:Country:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1013309962911875072]' derivation='None' name='[none:Calculation_1013309962911875072:nk]' pivot='key' type='ordinal' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1013309962911875072]' derivation='Sum' name='[sum:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Industry)' hidden='true' name='[Action (Industry)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Industry]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Self made)' hidden='true' name='[Action (Self made)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Self_made]' />
+        </groupfilter>
+      </group>
+      <group caption='Industry Top 5 B' name='[Industry Top 5 B]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Calculation_1013309962911875072])' function='order' user:ui-marker='order'>
+            <groupfilter function='level-members' level='[Industry]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <group caption='Top 5' name='[Top5B]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+          <groupfilter direction='DESC' expression='SUM([Calculation_1013309962911875072])' function='order' user:ui-marker='order'>
+            <groupfilter function='level-members' level='[Name]' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-manual-selection-is-empty='true' user:ui-marker='enumerate' />
+          </groupfilter>
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Industry:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Healthcare&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Automotive&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fashion &amp; Retail&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Metals &amp; Mining&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Logistics&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Finance &amp; Investments&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Construction &amp; Engineering&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Technology&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Food &amp; Beverage&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Real Estate&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Service&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Telecom&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Manufacturing&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gambling &amp; Casinos&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Diversified&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Media &amp; Entertainment&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Energy&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vietnam&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guernsey&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Liechtenstein&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Monaco&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;St. Kitts and Nevis&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Macao&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Eswatini (Swaziland)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Venezuela&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Turkey&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Calculation_1013309962911875072:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Country:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Calculation_1013309962911875072:nk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Country:nk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Age:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1013309962911875072:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>1800000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>3800000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>5800000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>7800000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>10000000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>12100000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>14500000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>17400000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>20900000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>25900000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>36900000000.0</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>61800000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>1000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>3000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>5000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>7000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>9200000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>11200000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>13500000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>16000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>19000000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>23500000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>31700000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>49900000000.0</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>97000000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>1400000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>3400000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5400000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>7400000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>9600000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>11600000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>14000000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>16800000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>19700000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>24900000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>33700000000.000004</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>55300000000.0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>177000000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>2200000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>4200000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>6200000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>8300000000.000001</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>10400000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>12600000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>14900000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>17900000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>21600000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>26400000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>39200000000.0</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>68900000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>1900000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>3900000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>5900000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>7900000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10100000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>12300000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>14600000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>17500000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>21300000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>26100000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>37700000000.0</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>62800000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>1500000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>3500000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>5500000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>7500000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>9700000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>11800000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>14100000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>16899999999.999998</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>20300000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>25000000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>34500000000.0</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>59000000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>2800000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>4800000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>6800000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>9000000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>11000000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>13200000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>15800000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>18800000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>23300000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>29600000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>46400000000.0</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>93000000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1100000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>3100000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>5100000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>7100000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>9300000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>11300000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>13600000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>16300000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>19100000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>23600000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>32000000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>50500000000.0</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>124000000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2600000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>4600000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>6600000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>8800000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>10800000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>13000000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>15600000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>18300000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>22400000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>28400000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>45100000000.0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>89000000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>1600000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>3600000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>5600000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7600000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>9800000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>11900000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>14200000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>17000000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>20400000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>25500000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>35100000000.0</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>59500000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>2300000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>4300000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>6300000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>8400000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>10500000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>12700000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>15300000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>18000000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>21700000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>26900000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>41800000000.0</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>73600000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>2400000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>4400000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>6400000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>8600000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>10600000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>12800000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>15400000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>18100000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>21900000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>27000000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>42300000000.0</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>77000000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>2700000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>4700000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>6700000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>8900000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>10900000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>13100000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>15700000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>18400000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>23000000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>29100000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>45400000000.0</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>91500000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>2900000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>4900000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>6900000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>9100000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>11100000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>13300000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>15900000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>18900000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>23400000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>31300000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>48400000000.0</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>96000000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2000000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>4000000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>6000000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>8000000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>10200000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>12400000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>14700000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>17600000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>21400000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>26200000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>38200000000.0</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>65800000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>1700000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>3700000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>5700000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>7700000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>9900000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>12000000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>14400000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>17200000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>20500000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>25800000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>35600000000.0</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>60200000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1200000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3200000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>5200000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>7200000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>9400000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>11400000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>13700000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>16500000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>19400000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>24400000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>33000000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>51900000000.0</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>150000000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>2500000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>4500000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>6500000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>8700000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>10700000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>12900000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>15500000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>18200000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>22000000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>27700000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>44100000000.0</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>84500000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>2100000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>4099999999.9999995</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>6100000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>8199999999.999999</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>10300000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12500000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>14800000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>17800000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>21500000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>26300000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>39000000000.0</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>68700000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>1300000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>3300000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>5300000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>7300000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>9500000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>11500000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>13900000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>16700000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>19500000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>24600000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>33500000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>53000000000.0</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>151000000000.0</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Rank' />
+        <field-sort-custom-order field='Country' />
+        <field-sort-custom-order field='Childrens' />
+        <field-sort-custom-order field='Age' />
+        <field-sort-custom-order field='Industry' />
+        <field-sort-custom-order field='NetWorth' />
+        <field-sort-custom-order field='Calculation_1013309962911875072' />
+        <field-sort-custom-order field='Source' />
+        <field-sort-custom-order field='Citizenship' />
+        <field-sort-custom-order field='Education' />
+        <field-sort-custom-order field='Self_made' />
+        <field-sort-custom-order field='Status' />
+        <field-sort-custom-order field='Residence' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Billionaire+detailed.csv' id='Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E'>
+            <properties context=''>
+              <relation connection='textscan.1yjvcq00dd83oe1fv2sy01v3t0uz' name='Billionaire+detailed.csv' table='[Billionaire+detailed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='integer' name='Rank' ordinal='1' />
+                  <column datatype='string' name='Country' ordinal='2' />
+                  <column datatype='integer' name='Childrens' ordinal='3' />
+                  <column datatype='integer' name='Age' ordinal='4' />
+                  <column datatype='string' name='Industry' ordinal='5' />
+                  <column datatype='string' name='NetWorth' ordinal='6' />
+                  <column datatype='string' name='Source' ordinal='7' />
+                  <column datatype='string' name='Citizenship' ordinal='8' />
+                  <column datatype='string' name='Education' ordinal='9' />
+                  <column datatype='boolean' name='Self_made' ordinal='10' />
+                  <column datatype='string' name='Status' ordinal='11' />
+                  <column datatype='string' name='Residence' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_E9F9DE557DE44BFBBDCDA71281AE1770]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='2.b1' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_42E7F069456D4501AA03DC31D8452CFE]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='2.b2' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_0D0631593E014DF997E76AEBCE690452]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='2.b3' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_1DC4CF2DCE8240269A9744C51A7F9877]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 2' type='sheet' worksheet='2.b4' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 2' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='1A.a'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='None' name='[none:Calculation_1013309962911875072:nk]' pivot='key' type='ordinal' />
+            <column-instance column='[NetWorth]' derivation='None' name='[none:NetWorth:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:NetWorth:nk] / [federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Calculation_1013309962911875072:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1C5FA386-B57A-412A-9530-9C842B88C008}' />
+    </worksheet>
+    <worksheet name='1A.b'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='Count' name='[cnt:Industry:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+              <size column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Industry:qk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BE657130-13E2-4A29-A805-649A68EE87FC}' />
+    </worksheet>
+    <worksheet name='1A.c'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Sum' name='[sum:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Top5B]' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Top5B]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{550B01C4-5C35-4E08-B650-F31674B5E00B}' />
+    </worksheet>
+    <worksheet name='1B.a'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Billionaire+detailed.csv' datatype='integer' name='[__tableau_internal_object_id__].[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Eswatini (Swaziland)&quot;' value='&quot;Eswatini&quot;' />
+              </semantic-values>
+            </column>
+            <_.fcp.ObjectModelTableType.true...column caption='Billionaire+detailed.csv' datatype='table' name='[__tableau_internal_object_id__].[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='Count' name='[cnt:Country:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Age:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[__tableau_internal_object_id__].[cnt:Billionaire+detailed.csv_EC5522730ECD4C0B8ED7993549F09B1E:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Longitude (generated)]' field-type='quantitative' max='19872059.507890992' min='-6491506.5595131749' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Latitude (generated)]' field-type='quantitative' max='14831417.626024168' min='-426617.60972610395' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Multiple Values]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Country:nk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Country:qk]' />
+              <geometry column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Latitude (generated)]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{52518CF0-5674-47AE-A6FE-7A3BFA2B0DDD}' />
+    </worksheet>
+    <worksheet name='1B.b'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='integer' name='[Age (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5.46' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Count' name='[cnt:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Age (bin):qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Age (bin):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Age:qk]' scope='rows' value='No. of Billionairs' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Age:qk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Age (bin):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Age:qk]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Age (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{FBA26572-FA1E-435C-A69C-C75A4DBE820A}' />
+    </worksheet>
+    <worksheet name='1B.c'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Avg' name='[avg:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='render-fold-reversed' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Age:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk]' />
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Age:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk] + [federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Age:qk])</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</cols>
+      </table>
+      <simple-id uuid='{76F1684B-B2C2-4EA7-81DD-72C09284B331}' />
+    </worksheet>
+    <worksheet name='2.a'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;Eswatini (Swaziland)&quot;' value='&quot;Eswatini&quot;' />
+              </semantic-values>
+            </column>
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Avg' name='[avg:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='Count' name='[cnt:Country:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Self_made]' derivation='None' name='[none:Self_made:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]'>
+            <groupfilter function='member' level='[none:Self_made:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Longitude (generated)]' field-type='quantitative' max='46176326.950433716' min='-2110644.8145385431' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Latitude (generated)]' field-type='quantitative' max='20641837.006988883' min='-7304470.2085800208' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Country:nk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Country:qk]' />
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk]' />
+              <geometry column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Latitude (generated)]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C0D231DA-C345-491B-8934-504D6C395A09}' />
+    </worksheet>
+    <worksheet name='2.b1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='Count' name='[cnt:Industry:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]'>
+            <groupfilter function='member' level='[Self_made]' member='true' user:ui-action-filter='[Action3_0D0631593E014DF997E76AEBCE690452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]'>
+            <groupfilter function='member' level='[none:Industry:nk]' member='&quot;Media &amp; Entertainment&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Industry:qk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{85117ECE-B8A0-4A76-96FB-6508B4B83F0E}' />
+    </worksheet>
+    <worksheet name='2.b2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Sum' name='[sum:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]'>
+            <groupfilter function='level-members' level='[Industry]' user:ui-action-filter='[Action1_E9F9DE557DE44BFBBDCDA71281AE1770]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]'>
+            <groupfilter function='member' level='[Self_made]' member='true' user:ui-action-filter='[Action3_0D0631593E014DF997E76AEBCE690452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+              <wedge-size column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]' />
+              <text column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{39B79E7C-089A-4663-A0B3-1EA1A8552886}' />
+    </worksheet>
+    <worksheet name='2.b3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Self_made]' derivation='None' name='[none:Self_made:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]'>
+            <groupfilter function='level-members' level='[Industry]' user:ui-action-filter='[Action1_E9F9DE557DE44BFBBDCDA71281AE1770]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]'>
+            <groupfilter function='member' level='[none:Self_made:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[cnt:Name:qk]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]</cols>
+      </table>
+      <simple-id uuid='{3DB52A02-9A8A-4A24-BABB-849C8B28F059}' />
+    </worksheet>
+    <worksheet name='2.b4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column caption='Self made' datatype='boolean' name='[Self_made]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Sum' name='[sum:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]'>
+            <groupfilter function='level-members' level='[Industry]' user:ui-action-filter='[Action1_E9F9DE557DE44BFBBDCDA71281AE1770]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]'>
+            <groupfilter function='member' level='[Self_made]' member='true' user:ui-action-filter='[Action3_0D0631593E014DF997E76AEBCE690452]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Industry Top 5 B]' />
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Industry Top 5 B]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Industry)]</column>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Action (Self made)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]</cols>
+      </table>
+      <simple-id uuid='{7D8967CD-9DEC-4CE5-8B3B-67CE63BE83FB}' />
+    </worksheet>
+    <worksheet name='3.a'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AA5D7337-C870-4D63-AC66-5A3D6EE2E31E}' />
+    </worksheet>
+    <worksheet name='3.b'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4D07F287-4384-42C0-A044-608FB8C0B10C}' />
+    </worksheet>
+    <worksheet name='3.c'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9BC85084-DAE8-451C-92D1-55001142036A}' />
+    </worksheet>
+    <worksheet name='3.d'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{28B4A30A-BCFF-4C2B-82CA-8E40FE27CE19}' />
+    </worksheet>
+    <worksheet name='3.e'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0E5083A6-C4B9-4510-A2BE-E7CC589D352F}' />
+    </worksheet>
+    <worksheet name='Sheet 15'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Billionaire+detailed' name='federated.09xyfgn1u5p3b00zl2j671xr0s3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09xyfgn1u5p3b00zl2j671xr0s3h'>
+            <column caption='Total Net Wealth' datatype='real' name='[Calculation_1013309962911875072]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='1000000000 *&#13;&#10;FLOAT(&#13;&#10;MID(SPLIT([NetWorth],&apos; &apos;,1),2,LEN(SPLIT([NetWorth],&apos; &apos;,1)))&#13;&#10;)' />
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='Net Worth' datatype='string' name='[NetWorth]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1013309962911875072]' derivation='Sum' name='[sum:Calculation_1013309962911875072:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Top5B]' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Top5B]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[sum:Calculation_1013309962911875072:qk]</rows>
+        <cols>[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{753B6706-4DBA-495C-96AA-698DC07D8D1F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='3.DashBoard'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4C5A4047-C160-4C54-A66E-9F58E497655F}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='3' name='2.b1' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='2.b2' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='10' name='2.b3' w='41200' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='11' name='2.b4' w='41200' x='42000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='5750' id='8' name='2.b1' pane-specification-id='0' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' type-v2='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1A7A3F8D-B3A7-4149-9A52-1287166641A9}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='1A.a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2220BE43-2A70-4B8C-ACCA-8EDA632EDF57}' />
+    </window>
+    <window class='worksheet' name='1A.b'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{845EA67E-25E2-4821-BA27-22865E622BBC}' />
+    </window>
+    <window class='worksheet' name='1A.c'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8F46D84-AE28-483B-BD48-43693268A228}' />
+    </window>
+    <window class='worksheet' name='1B.a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[Multiple Values]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1E0AB568-F04A-4C4B-931B-D594F6CFE647}' />
+    </window>
+    <window class='worksheet' name='1B.b'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{972ECB7D-D141-4AC4-8CE7-A80B630FF6C7}' />
+    </window>
+    <window class='worksheet' name='1B.c'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C1C8DB64-7BEF-4B5B-81A1-F74E52135F29}' />
+    </window>
+    <window class='worksheet' name='2.a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[avg:Calculation_1013309962911875072:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A7CC18D-6E2C-4BAF-8D3C-BC9AA328CF23}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='2.b1' />
+        <viewpoint name='2.b2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='2.b3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='2.b4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='10' />
+      <simple-id uuid='{FD240FDD-B43C-4EA8-BCDF-5E36F48570F1}' />
+    </window>
+    <window class='worksheet' name='2.b1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5F3CF3E8-F201-4F84-8346-655A28F83647}' />
+    </window>
+    <window class='worksheet' name='2.b2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Industry:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{79A4155E-15E1-40A5-863F-C91F9E610AB4}' />
+    </window>
+    <window class='worksheet' name='2.b3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.09xyfgn1u5p3b00zl2j671xr0s3h].[none:Self_made:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E6AFDD3F-6D81-435F-A41A-C18D52EC247B}' />
+    </window>
+    <window class='worksheet' name='2.b4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CED1480A-9A7A-4A2C-8C20-86FABC0DE16E}' />
+    </window>
+    <window class='dashboard' name='3.DashBoard'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{22080B60-8AFD-48B8-91C0-8403DEA501B0}' />
+    </window>
+    <window class='worksheet' name='3.a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3D333F08-B992-4CFF-A856-8CA90C3036A9}' />
+    </window>
+    <window class='worksheet' name='3.b'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B43DC2C8-9B78-4A56-9EFB-17DDD355394C}' />
+    </window>
+    <window class='worksheet' name='3.c'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6C9490D1-F41F-4886-BEC2-ADC8FBA1F628}' />
+    </window>
+    <window class='worksheet' name='3.d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8FA1E557-AC9E-4A4D-9C73-3B5D63EB44DC}' />
+    </window>
+    <window class='worksheet' name='3.e'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{54EE9352-C179-4B06-8FFE-79D1007D2DF3}' />
+    </window>
+    <window class='worksheet' name='Sheet 15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{81E4A464-4BB1-4BDA-AB2E-18EAB161B3B0}' />
+    </window>
+  </windows>
+</workbook>

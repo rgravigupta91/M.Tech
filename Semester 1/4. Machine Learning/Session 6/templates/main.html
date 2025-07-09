@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<style>
+body {
+            background-color: #E6E6FA
+            }
+form {
+    margin: auto;
+    width: 35%;
+}
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+<head>
+    <title>Loan Prediction Model</title>
+</head>
+<form action="{{ url_for('main') }}" method="POST">
+    <fieldset>
+        <legend>Input values:</legend>
+        Married:
+        <input list="mrd"type="text" name="Married" type="text">
+        <datalist id="mrd">
+            <option value="Yes">
+            <option value="No">
+
+        </datalist>
+        <br>
+        <br> Education:
+        <input list="edu" name="Education"  type="text" required>
+        <datalist id="edu">
+            <option value="Graduate">
+            <option value="Not Graduate">
+            <option value="HSC">
+        </datalist>
+        <br>
+        <br> ApplicantIncome:
+        <input type="number" name="ApplicantIncome"  required>
+        <br>
+        <br> LoanAmount:
+        <input type="float"  name="LoanAmount" pattern="[+-]?([0-9]*[.])?[0-9]+" oninvalid="setCustomValidity('Plz enter a valid LoanAmount value')"
+    onchange="try{setCustomValidity('')}catch(e){}" >
+        <br>
+        <br> Credit_History:
+        <input type="float" name="Credit_History">
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center">
+    {% if result %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}
+        {% endfor %}
+        <br>
+        <br> Loan Rejection Probability:
+           <p style="font-size:50px">{{ result }}</p>
+    {% endif %}
+</div>
+</html>
