@@ -1,0 +1,44 @@
+annotations:
+- bbox:
+  - 89
+  - 26
+  - 113
+  - 56
+  class: without_mask
+- bbox:
+  - 173
+  - 34
+  - 206
+  - 65
+  class: mask_weared_incorrect
+- bbox:
+  - 98
+  - 96
+  - 138
+  - 127
+  class: without_mask
+- bbox:
+  - 158
+  - 92
+  - 195
+  - 138
+  class: mask_weared_incorrect
+- bbox:
+  - 217
+  - 103
+  - 252
+  - 141
+  class: without_mask
+- bbox:
+  - 350
+  - 105
+  - 378
+  - 139
+  class: without_mask
+- bbox:
+  - 211
+  - 160
+  - 236
+  - 201
+  class: with_mask
+image: maksssksksss760.png

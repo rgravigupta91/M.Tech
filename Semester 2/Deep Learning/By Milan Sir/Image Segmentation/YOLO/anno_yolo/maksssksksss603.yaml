@@ -1,0 +1,692 @@
+annotations:
+- bbox:
+  - 49
+  - 11
+  - 55
+  - 17
+  class: with_mask
+- bbox:
+  - 32
+  - 52
+  - 40
+  - 60
+  class: with_mask
+- bbox:
+  - 52
+  - 76
+  - 61
+  - 86
+  class: without_mask
+- bbox:
+  - 47
+  - 98
+  - 58
+  - 109
+  class: with_mask
+- bbox:
+  - 68
+  - 100
+  - 75
+  - 111
+  class: with_mask
+- bbox:
+  - 2
+  - 129
+  - 12
+  - 140
+  class: with_mask
+- bbox:
+  - 24
+  - 125
+  - 34
+  - 134
+  class: with_mask
+- bbox:
+  - 47
+  - 127
+  - 59
+  - 138
+  class: with_mask
+- bbox:
+  - 40
+  - 154
+  - 51
+  - 165
+  class: without_mask
+- bbox:
+  - 25
+  - 192
+  - 36
+  - 201
+  class: with_mask
+- bbox:
+  - 60
+  - 171
+  - 69
+  - 182
+  class: without_mask
+- bbox:
+  - 142
+  - 2
+  - 149
+  - 9
+  class: with_mask
+- bbox:
+  - 137
+  - 12
+  - 146
+  - 21
+  class: with_mask
+- bbox:
+  - 124
+  - 23
+  - 130
+  - 30
+  class: with_mask
+- bbox:
+  - 118
+  - 30
+  - 124
+  - 38
+  class: with_mask
+- bbox:
+  - 103
+  - 38
+  - 111
+  - 46
+  class: with_mask
+- bbox:
+  - 95
+  - 64
+  - 102
+  - 70
+  class: with_mask
+- bbox:
+  - 82
+  - 67
+  - 89
+  - 73
+  class: without_mask
+- bbox:
+  - 86
+  - 76
+  - 93
+  - 83
+  class: with_mask
+- bbox:
+  - 103
+  - 77
+  - 111
+  - 85
+  class: without_mask
+- bbox:
+  - 102
+  - 108
+  - 110
+  - 117
+  class: with_mask
+- bbox:
+  - 111
+  - 122
+  - 118
+  - 130
+  class: without_mask
+- bbox:
+  - 111
+  - 151
+  - 122
+  - 163
+  class: mask_weared_incorrect
+- bbox:
+  - 99
+  - 165
+  - 111
+  - 177
+  class: with_mask
+- bbox:
+  - 124
+  - 210
+  - 137
+  - 224
+  class: with_mask
+- bbox:
+  - 91
+  - 257
+  - 106
+  - 272
+  class: with_mask
+- bbox:
+  - 180
+  - 3
+  - 184
+  - 8
+  class: with_mask
+- bbox:
+  - 165
+  - 13
+  - 171
+  - 20
+  class: with_mask
+- bbox:
+  - 154
+  - 17
+  - 161
+  - 23
+  class: with_mask
+- bbox:
+  - 159
+  - 30
+  - 164
+  - 37
+  class: without_mask
+- bbox:
+  - 169
+  - 26
+  - 177
+  - 35
+  class: with_mask
+- bbox:
+  - 127
+  - 55
+  - 134
+  - 62
+  class: with_mask
+- bbox:
+  - 156
+  - 54
+  - 163
+  - 62
+  class: with_mask
+- bbox:
+  - 135
+  - 63
+  - 143
+  - 72
+  class: without_mask
+- bbox:
+  - 117
+  - 72
+  - 124
+  - 80
+  class: without_mask
+- bbox:
+  - 143
+  - 78
+  - 152
+  - 87
+  class: with_mask
+- bbox:
+  - 133
+  - 100
+  - 142
+  - 107
+  class: with_mask
+- bbox:
+  - 178
+  - 87
+  - 186
+  - 96
+  class: with_mask
+- bbox:
+  - 164
+  - 100
+  - 174
+  - 108
+  class: with_mask
+- bbox:
+  - 139
+  - 124
+  - 147
+  - 134
+  class: with_mask
+- bbox:
+  - 169
+  - 116
+  - 178
+  - 126
+  class: with_mask
+- bbox:
+  - 146
+  - 168
+  - 156
+  - 180
+  class: with_mask
+- bbox:
+  - 148
+  - 189
+  - 158
+  - 201
+  class: with_mask
+- bbox:
+  - 159
+  - 192
+  - 170
+  - 205
+  class: with_mask
+- bbox:
+  - 158
+  - 254
+  - 173
+  - 269
+  class: with_mask
+- bbox:
+  - 182
+  - 216
+  - 189
+  - 226
+  class: with_mask
+- bbox:
+  - 183
+  - 159
+  - 194
+  - 170
+  class: with_mask
+- bbox:
+  - 177
+  - 149
+  - 188
+  - 157
+  class: with_mask
+- bbox:
+  - 189
+  - 17
+  - 194
+  - 23
+  class: with_mask
+- bbox:
+  - 216
+  - 7
+  - 221
+  - 13
+  class: with_mask
+- bbox:
+  - 202
+  - 21
+  - 207
+  - 24
+  class: with_mask
+- bbox:
+  - 213
+  - 27
+  - 220
+  - 34
+  class: with_mask
+- bbox:
+  - 227
+  - 15
+  - 233
+  - 22
+  class: with_mask
+- bbox:
+  - 196
+  - 36
+  - 203
+  - 44
+  class: with_mask
+- bbox:
+  - 212
+  - 54
+  - 216
+  - 59
+  class: with_mask
+- bbox:
+  - 199
+  - 64
+  - 208
+  - 71
+  class: with_mask
+- bbox:
+  - 221
+  - 80
+  - 229
+  - 88
+  class: with_mask
+- bbox:
+  - 191
+  - 97
+  - 199
+  - 107
+  class: with_mask
+- bbox:
+  - 219
+  - 94
+  - 227
+  - 102
+  class: with_mask
+- bbox:
+  - 211
+  - 100
+  - 220
+  - 111
+  class: with_mask
+- bbox:
+  - 195
+  - 123
+  - 203
+  - 132
+  class: with_mask
+- bbox:
+  - 249
+  - 1
+  - 255
+  - 6
+  class: with_mask
+- bbox:
+  - 254
+  - 22
+  - 260
+  - 29
+  class: with_mask
+- bbox:
+  - 265
+  - 17
+  - 270
+  - 23
+  class: with_mask
+- bbox:
+  - 276
+  - 22
+  - 280
+  - 28
+  class: with_mask
+- bbox:
+  - 279
+  - 23
+  - 285
+  - 30
+  class: with_mask
+- bbox:
+  - 269
+  - 36
+  - 274
+  - 42
+  class: without_mask
+- bbox:
+  - 292
+  - 27
+  - 298
+  - 35
+  class: with_mask
+- bbox:
+  - 293
+  - 37
+  - 299
+  - 44
+  class: without_mask
+- bbox:
+  - 281
+  - 54
+  - 288
+  - 61
+  class: with_mask
+- bbox:
+  - 255
+  - 45
+  - 262
+  - 51
+  class: without_mask
+- bbox:
+  - 246
+  - 49
+  - 254
+  - 57
+  class: mask_weared_incorrect
+- bbox:
+  - 251
+  - 80
+  - 259
+  - 87
+  class: with_mask
+- bbox:
+  - 238
+  - 106
+  - 247
+  - 115
+  class: with_mask
+- bbox:
+  - 265
+  - 104
+  - 273
+  - 112
+  class: with_mask
+- bbox:
+  - 234
+  - 142
+  - 245
+  - 151
+  class: with_mask
+- bbox:
+  - 236
+  - 206
+  - 249
+  - 219
+  class: with_mask
+- bbox:
+  - 213
+  - 236
+  - 227
+  - 250
+  class: with_mask
+- bbox:
+  - 253
+  - 225
+  - 266
+  - 238
+  class: with_mask
+- bbox:
+  - 304
+  - 1
+  - 311
+  - 7
+  class: with_mask
+- bbox:
+  - 326
+  - 18
+  - 332
+  - 26
+  class: with_mask
+- bbox:
+  - 334
+  - 23
+  - 339
+  - 29
+  class: without_mask
+- bbox:
+  - 327
+  - 37
+  - 332
+  - 44
+  class: with_mask
+- bbox:
+  - 328
+  - 45
+  - 335
+  - 52
+  class: with_mask
+- bbox:
+  - 307
+  - 63
+  - 315
+  - 72
+  class: with_mask
+- bbox:
+  - 325
+  - 82
+  - 332
+  - 90
+  class: with_mask
+- bbox:
+  - 275
+  - 114
+  - 284
+  - 124
+  class: with_mask
+- bbox:
+  - 289
+  - 108
+  - 298
+  - 117
+  class: with_mask
+- bbox:
+  - 283
+  - 125
+  - 293
+  - 134
+  class: with_mask
+- bbox:
+  - 287
+  - 145
+  - 296
+  - 156
+  class: with_mask
+- bbox:
+  - 275
+  - 149
+  - 286
+  - 161
+  class: with_mask
+- bbox:
+  - 297
+  - 248
+  - 311
+  - 263
+  class: with_mask
+- bbox:
+  - 354
+  - 267
+  - 370
+  - 278
+  class: with_mask
+- bbox:
+  - 380
+  - 270
+  - 395
+  - 278
+  class: with_mask
+- bbox:
+  - 358
+  - 219
+  - 371
+  - 231
+  class: with_mask
+- bbox:
+  - 372
+  - 212
+  - 383
+  - 226
+  class: with_mask
+- bbox:
+  - 373
+  - 163
+  - 384
+  - 175
+  class: with_mask
+- bbox:
+  - 373
+  - 144
+  - 384
+  - 155
+  class: with_mask
+- bbox:
+  - 397
+  - 132
+  - 401
+  - 142
+  class: with_mask
+- bbox:
+  - 356
+  - 131
+  - 364
+  - 136
+  class: with_mask
+- bbox:
+  - 362
+  - 117
+  - 371
+  - 127
+  class: with_mask
+- bbox:
+  - 349
+  - 100
+  - 358
+  - 110
+  class: with_mask
+- bbox:
+  - 367
+  - 85
+  - 375
+  - 95
+  class: with_mask
+- bbox:
+  - 345
+  - 86
+  - 354
+  - 95
+  class: with_mask
+- bbox:
+  - 338
+  - 75
+  - 345
+  - 84
+  class: with_mask
+- bbox:
+  - 362
+  - 74
+  - 367
+  - 80
+  class: with_mask
+- bbox:
+  - 339
+  - 59
+  - 347
+  - 67
+  class: with_mask
+- bbox:
+  - 346
+  - 44
+  - 352
+  - 51
+  class: with_mask
+- bbox:
+  - 383
+  - 48
+  - 388
+  - 55
+  class: with_mask
+- bbox:
+  - 391
+  - 27
+  - 397
+  - 34
+  class: with_mask
+- bbox:
+  - 356
+  - 18
+  - 362
+  - 24
+  class: with_mask
+- bbox:
+  - 346
+  - 9
+  - 351
+  - 16
+  class: with_mask
+- bbox:
+  - 370
+  - 13
+  - 376
+  - 18
+  class: with_mask
+- bbox:
+  - 382
+  - 6
+  - 386
+  - 12
+  class: without_mask
+- bbox:
+  - 396
+  - 18
+  - 401
+  - 23
+  class: without_mask
+image: maksssksksss603.png

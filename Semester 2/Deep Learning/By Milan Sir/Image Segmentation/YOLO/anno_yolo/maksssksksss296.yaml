@@ -1,0 +1,212 @@
+annotations:
+- bbox:
+  - 42
+  - 88
+  - 68
+  - 112
+  class: without_mask
+- bbox:
+  - 46
+  - 59
+  - 69
+  - 78
+  class: without_mask
+- bbox:
+  - 77
+  - 56
+  - 97
+  - 72
+  class: with_mask
+- bbox:
+  - 101
+  - 69
+  - 120
+  - 87
+  class: without_mask
+- bbox:
+  - 114
+  - 51
+  - 132
+  - 70
+  class: with_mask
+- bbox:
+  - 84
+  - 34
+  - 105
+  - 56
+  class: without_mask
+- bbox:
+  - 42
+  - 125
+  - 62
+  - 158
+  class: with_mask
+- bbox:
+  - 63
+  - 138
+  - 93
+  - 171
+  class: without_mask
+- bbox:
+  - 91
+  - 162
+  - 121
+  - 197
+  class: without_mask
+- bbox:
+  - 129
+  - 176
+  - 168
+  - 218
+  class: with_mask
+- bbox:
+  - 136
+  - 102
+  - 162
+  - 131
+  class: with_mask
+- bbox:
+  - 136
+  - 69
+  - 161
+  - 89
+  class: with_mask
+- bbox:
+  - 140
+  - 33
+  - 155
+  - 48
+  class: without_mask
+- bbox:
+  - 177
+  - 32
+  - 194
+  - 54
+  class: with_mask
+- bbox:
+  - 172
+  - 46
+  - 184
+  - 65
+  class: with_mask
+- bbox:
+  - 196
+  - 33
+  - 213
+  - 52
+  class: with_mask
+- bbox:
+  - 221
+  - 22
+  - 237
+  - 40
+  class: without_mask
+- bbox:
+  - 236
+  - 35
+  - 261
+  - 60
+  class: without_mask
+- bbox:
+  - 175
+  - 90
+  - 197
+  - 114
+  class: with_mask
+- bbox:
+  - 170
+  - 130
+  - 196
+  - 153
+  class: with_mask
+- bbox:
+  - 213
+  - 101
+  - 238
+  - 130
+  class: with_mask
+- bbox:
+  - 185
+  - 169
+  - 202
+  - 193
+  class: without_mask
+- bbox:
+  - 165
+  - 172
+  - 182
+  - 207
+  class: without_mask
+- bbox:
+  - 229
+  - 186
+  - 265
+  - 223
+  class: with_mask
+- bbox:
+  - 244
+  - 113
+  - 272
+  - 141
+  class: with_mask
+- bbox:
+  - 271
+  - 161
+  - 292
+  - 195
+  class: with_mask
+- bbox:
+  - 262
+  - 82
+  - 282
+  - 103
+  class: with_mask
+- bbox:
+  - 292
+  - 107
+  - 315
+  - 132
+  class: with_mask
+- bbox:
+  - 262
+  - 18
+  - 282
+  - 38
+  class: without_mask
+- bbox:
+  - 263
+  - 48
+  - 279
+  - 62
+  class: without_mask
+- bbox:
+  - 282
+  - 26
+  - 300
+  - 43
+  class: without_mask
+- bbox:
+  - 321
+  - 18
+  - 335
+  - 36
+  class: with_mask
+- bbox:
+  - 296
+  - 49
+  - 314
+  - 67
+  class: without_mask
+- bbox:
+  - 322
+  - 106
+  - 350
+  - 124
+  class: with_mask
+- bbox:
+  - 341
+  - 154
+  - 373
+  - 182
+  class: without_mask
+image: maksssksksss296.png

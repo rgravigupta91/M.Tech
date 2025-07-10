@@ -1,0 +1,122 @@
+annotations:
+- bbox:
+  - 25
+  - 54
+  - 43
+  - 76
+  class: with_mask
+- bbox:
+  - 58
+  - 67
+  - 76
+  - 88
+  class: with_mask
+- bbox:
+  - 132
+  - 62
+  - 152
+  - 85
+  class: with_mask
+- bbox:
+  - 115
+  - 51
+  - 127
+  - 65
+  class: with_mask
+- bbox:
+  - 143
+  - 52
+  - 154
+  - 63
+  class: with_mask
+- bbox:
+  - 154
+  - 61
+  - 172
+  - 77
+  class: with_mask
+- bbox:
+  - 170
+  - 55
+  - 177
+  - 69
+  class: with_mask
+- bbox:
+  - 173
+  - 106
+  - 192
+  - 127
+  class: with_mask
+- bbox:
+  - 186
+  - 60
+  - 198
+  - 74
+  class: with_mask
+- bbox:
+  - 205
+  - 58
+  - 217
+  - 74
+  class: with_mask
+- bbox:
+  - 216
+  - 59
+  - 233
+  - 78
+  class: with_mask
+- bbox:
+  - 238
+  - 66
+  - 254
+  - 84
+  class: with_mask
+- bbox:
+  - 252
+  - 71
+  - 271
+  - 93
+  class: with_mask
+- bbox:
+  - 275
+  - 75
+  - 297
+  - 99
+  class: with_mask
+- bbox:
+  - 282
+  - 44
+  - 294
+  - 61
+  class: with_mask
+- bbox:
+  - 299
+  - 55
+  - 316
+  - 73
+  class: with_mask
+- bbox:
+  - 316
+  - 57
+  - 332
+  - 71
+  class: without_mask
+- bbox:
+  - 345
+  - 50
+  - 362
+  - 67
+  class: with_mask
+- bbox:
+  - 366
+  - 53
+  - 385
+  - 73
+  class: with_mask
+- bbox:
+  - 332
+  - 57
+  - 341
+  - 68
+  class: with_mask
+image: maksssksksss690.png

@@ -1,0 +1,26 @@
+annotations:
+- bbox:
+  - 183
+  - 5
+  - 266
+  - 92
+  class: with_mask
+- bbox:
+  - 341
+  - 114
+  - 381
+  - 164
+  class: with_mask
+- bbox:
+  - 353
+  - 86
+  - 379
+  - 147
+  class: with_mask
+- bbox:
+  - 42
+  - 71
+  - 70
+  - 133
+  class: without_mask
+image: maksssksksss823.png

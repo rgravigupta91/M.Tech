@@ -1,0 +1,8 @@
+annotations:
+- bbox:
+  - 167
+  - 77
+  - 220
+  - 133
+  class: mask_weared_incorrect
+image: maksssksksss830.png

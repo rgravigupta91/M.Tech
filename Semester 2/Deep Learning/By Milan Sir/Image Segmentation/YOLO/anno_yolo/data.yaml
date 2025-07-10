@@ -1,0 +1,7 @@
+names:
+- mask_weared_incorrect
+- without_mask
+- with_mask
+nc: 3
+train: C:\Users\Milan Amrut Joshi\Desktop\Misc_2\DL\YOLO\images\train
+val: C:\Users\Milan Amrut Joshi\Desktop\Misc_2\DL\YOLO\images\val

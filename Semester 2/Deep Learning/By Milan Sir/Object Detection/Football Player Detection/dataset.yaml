@@ -1,0 +1,9 @@
+train: /content/drive/MyDrive/Notebook/DL/ObjectDetection/FootballPlayerDetection/Dataset/train/images
+val: /content/drive/MyDrive/Notebook/DL/ObjectDetection/FootballPlayerDetection/Dataset/valid/images
+#test: /content/drive/MyDrive/Notebook/DL/ObjectDetection/FootballPlayerDetection/Dataset/test/images  #optional
+
+nc: 3
+names: ['Ball', 'Player', 'Referee']
+
+#roboflow:
+ #url: https://universe.roboflow.com/nikhil-chapre-xgndf/detect-players-dgxz0/dataset/7

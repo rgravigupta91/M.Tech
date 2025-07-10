@@ -1,0 +1,368 @@
+annotations:
+- bbox:
+  - 44
+  - 215
+  - 62
+  - 231
+  class: without_mask
+- bbox:
+  - 4
+  - 158
+  - 20
+  - 174
+  class: without_mask
+- bbox:
+  - 53
+  - 160
+  - 68
+  - 176
+  class: without_mask
+- bbox:
+  - 11
+  - 134
+  - 25
+  - 148
+  class: without_mask
+- bbox:
+  - 58
+  - 123
+  - 75
+  - 139
+  class: without_mask
+- bbox:
+  - 16
+  - 100
+  - 31
+  - 115
+  class: without_mask
+- bbox:
+  - 59
+  - 103
+  - 73
+  - 113
+  class: without_mask
+- bbox:
+  - 75
+  - 89
+  - 88
+  - 101
+  class: without_mask
+- bbox:
+  - 20
+  - 65
+  - 33
+  - 78
+  class: without_mask
+- bbox:
+  - 34
+  - 55
+  - 45
+  - 64
+  class: without_mask
+- bbox:
+  - 78
+  - 57
+  - 92
+  - 71
+  class: without_mask
+- bbox:
+  - 42
+  - 23
+  - 54
+  - 35
+  class: without_mask
+- bbox:
+  - 77
+  - 26
+  - 91
+  - 40
+  class: without_mask
+- bbox:
+  - 85
+  - 11
+  - 98
+  - 22
+  class: without_mask
+- bbox:
+  - 155
+  - 26
+  - 162
+  - 36
+  class: without_mask
+- bbox:
+  - 185
+  - 22
+  - 193
+  - 33
+  class: with_mask
+- bbox:
+  - 203
+  - 19
+  - 212
+  - 29
+  class: with_mask
+- bbox:
+  - 176
+  - 30
+  - 188
+  - 41
+  class: without_mask
+- bbox:
+  - 178
+  - 44
+  - 189
+  - 55
+  class: without_mask
+- bbox:
+  - 170
+  - 69
+  - 181
+  - 79
+  class: with_mask
+- bbox:
+  - 186
+  - 81
+  - 194
+  - 92
+  class: without_mask
+- bbox:
+  - 177
+  - 93
+  - 186
+  - 105
+  class: without_mask
+- bbox:
+  - 177
+  - 114
+  - 189
+  - 127
+  class: without_mask
+- bbox:
+  - 166
+  - 136
+  - 181
+  - 150
+  class: without_mask
+- bbox:
+  - 181
+  - 156
+  - 194
+  - 167
+  class: without_mask
+- bbox:
+  - 184
+  - 201
+  - 198
+  - 211
+  class: without_mask
+- bbox:
+  - 189
+  - 220
+  - 206
+  - 237
+  class: without_mask
+- bbox:
+  - 182
+  - 219
+  - 188
+  - 230
+  class: without_mask
+- bbox:
+  - 203
+  - 103
+  - 216
+  - 115
+  class: with_mask
+- bbox:
+  - 215
+  - 112
+  - 229
+  - 127
+  class: without_mask
+- bbox:
+  - 218
+  - 90
+  - 232
+  - 103
+  class: without_mask
+- bbox:
+  - 209
+  - 89
+  - 219
+  - 101
+  class: without_mask
+- bbox:
+  - 207
+  - 47
+  - 214
+  - 56
+  class: without_mask
+- bbox:
+  - 213
+  - 51
+  - 225
+  - 63
+  class: without_mask
+- bbox:
+  - 228
+  - 22
+  - 238
+  - 33
+  class: without_mask
+- bbox:
+  - 230
+  - 56
+  - 242
+  - 68
+  class: without_mask
+- bbox:
+  - 250
+  - 55
+  - 260
+  - 64
+  class: without_mask
+- bbox:
+  - 249
+  - 80
+  - 262
+  - 92
+  class: without_mask
+- bbox:
+  - 241
+  - 124
+  - 253
+  - 134
+  class: without_mask
+- bbox:
+  - 220
+  - 158
+  - 231
+  - 172
+  class: without_mask
+- bbox:
+  - 233
+  - 170
+  - 247
+  - 184
+  class: without_mask
+- bbox:
+  - 251
+  - 169
+  - 264
+  - 183
+  class: without_mask
+- bbox:
+  - 253
+  - 128
+  - 267
+  - 142
+  class: without_mask
+- bbox:
+  - 250
+  - 224
+  - 262
+  - 238
+  class: without_mask
+- bbox:
+  - 242
+  - 33
+  - 253
+  - 43
+  class: without_mask
+- bbox:
+  - 260
+  - 26
+  - 267
+  - 36
+  class: without_mask
+- bbox:
+  - 255
+  - 14
+  - 264
+  - 22
+  class: without_mask
+- bbox:
+  - 282
+  - 20
+  - 291
+  - 29
+  class: without_mask
+- bbox:
+  - 271
+  - 29
+  - 281
+  - 36
+  class: without_mask
+- bbox:
+  - 282
+  - 39
+  - 294
+  - 48
+  class: without_mask
+- bbox:
+  - 276
+  - 63
+  - 290
+  - 73
+  class: without_mask
+- bbox:
+  - 290
+  - 57
+  - 295
+  - 68
+  class: without_mask
+- bbox:
+  - 274
+  - 87
+  - 287
+  - 97
+  class: without_mask
+- bbox:
+  - 286
+  - 97
+  - 299
+  - 110
+  class: without_mask
+- bbox:
+  - 299
+  - 100
+  - 306
+  - 111
+  class: without_mask
+- bbox:
+  - 291
+  - 124
+  - 304
+  - 137
+  class: without_mask
+- bbox:
+  - 287
+  - 159
+  - 302
+  - 170
+  class: without_mask
+- bbox:
+  - 301
+  - 191
+  - 315
+  - 204
+  class: without_mask
+- bbox:
+  - 310
+  - 211
+  - 319
+  - 219
+  class: without_mask
+- bbox:
+  - 314
+  - 231
+  - 328
+  - 244
+  class: without_mask
+- bbox:
+  - 301
+  - 22
+  - 308
+  - 29
+  class: without_mask
+image: maksssksksss240.png

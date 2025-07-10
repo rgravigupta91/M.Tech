@@ -1,0 +1,8 @@
+annotations:
+- bbox:
+  - 112
+  - 40
+  - 157
+  - 87
+  class: with_mask
+image: maksssksksss192.png

@@ -1,0 +1,50 @@
+annotations:
+- bbox:
+  - 30
+  - 48
+  - 46
+  - 66
+  class: with_mask
+- bbox:
+  - 87
+  - 52
+  - 101
+  - 67
+  class: with_mask
+- bbox:
+  - 186
+  - 43
+  - 208
+  - 67
+  class: with_mask
+- bbox:
+  - 199
+  - 110
+  - 217
+  - 125
+  class: with_mask
+- bbox:
+  - 264
+  - 52
+  - 283
+  - 74
+  class: with_mask
+- bbox:
+  - 305
+  - 50
+  - 319
+  - 62
+  class: with_mask
+- bbox:
+  - 340
+  - 45
+  - 351
+  - 56
+  class: with_mask
+- bbox:
+  - 369
+  - 53
+  - 383
+  - 65
+  class: with_mask
+image: maksssksksss711.png

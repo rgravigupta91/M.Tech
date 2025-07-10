@@ -1,0 +1,20 @@
+annotations:
+- bbox:
+  - 21
+  - 12
+  - 103
+  - 114
+  class: with_mask
+- bbox:
+  - 188
+  - 100
+  - 283
+  - 204
+  class: with_mask
+- bbox:
+  - 298
+  - 2
+  - 398
+  - 91
+  class: mask_weared_incorrect
+image: maksssksksss666.png

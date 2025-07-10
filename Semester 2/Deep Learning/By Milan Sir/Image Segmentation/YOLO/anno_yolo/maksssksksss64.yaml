@@ -1,0 +1,68 @@
+annotations:
+- bbox:
+  - 99
+  - 44
+  - 116
+  - 64
+  class: with_mask
+- bbox:
+  - 151
+  - 41
+  - 171
+  - 61
+  class: with_mask
+- bbox:
+  - 306
+  - 21
+  - 326
+  - 42
+  class: with_mask
+- bbox:
+  - 354
+  - 32
+  - 357
+  - 38
+  class: with_mask
+- bbox:
+  - 275
+  - 32
+  - 277
+  - 35
+  class: without_mask
+- bbox:
+  - 243
+  - 34
+  - 246
+  - 37
+  class: with_mask
+- bbox:
+  - 207
+  - 38
+  - 208
+  - 40
+  class: with_mask
+- bbox:
+  - 216
+  - 37
+  - 218
+  - 39
+  class: with_mask
+- bbox:
+  - 217
+  - 36
+  - 219
+  - 39
+  class: with_mask
+- bbox:
+  - 226
+  - 35
+  - 227
+  - 37
+  class: with_mask
+- bbox:
+  - 230
+  - 36
+  - 231
+  - 38
+  class: with_mask
+image: maksssksksss64.png
