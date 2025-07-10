@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Number-Plate-Detection']
+
+roboflow:
+  workspace: computervision-39ovo
+  project: project1-3o5o2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computervision-39ovo/project1-3o5o2/dataset/1
