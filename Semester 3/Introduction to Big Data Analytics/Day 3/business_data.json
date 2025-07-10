@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Fun Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "Pizza Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "Kitchen Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "Lazy Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "City Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "HomeFood Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "Sandwich Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "State Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "Ghar ka khana Pvt Ltd",
+    "rating": 2,
+    "cuisine": "American"
+  },
+  {
+    "name": "Big Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Pizza"
+  },
+  {
+    "name": "Tastey Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "Salty Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "Home Mane Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "Pizza Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "HomeFood Pvt Ltd",
+    "rating": 4,
+    "cuisine": "American"
+  },
+  {
+    "name": "City Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "Kitchen Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Pizza"
+  },
+  {
+    "name": "Ghar ka khana Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "Lazy Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "Fun Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "State Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "Pizza Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Pizza"
+  },
+  {
+    "name": "Salty Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "Big Pvt Ltd",
+    "rating": 1,
+    "cuisine": "American"
+  },
+  {
+    "name": "Tastey Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "Home Mane Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "Sandwich Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "Kitchen Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "City Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "State Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "HomeFood Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "Pizza Pvt Ltd",
+    "rating": 1,
+    "cuisine": "American"
+  },
+  {
+    "name": "Lazy Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "Sandwich Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "Ghar ka khana Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "Big Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "Tastey Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "Salty Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "Home Mane Pvt Ltd",
+    "rating": 5,
+    "cuisine": "American"
+  },
+  {
+    "name": "Fun Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Pizza"
+  },
+  {
+    "name": "Kitchen Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "State Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "City Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Vegetarian"
+  },
+  {
+    "name": "HomeFood Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Chinese"
+  },
+  {
+    "name": "Ghar ka khana Pvt Ltd",
+    "rating": 1,
+    "cuisine": "Italian"
+  },
+  {
+    "name": "Sandwich Pvt Ltd",
+    "rating": 5,
+    "cuisine": "Pizza"
+  },
+  {
+    "name": "Tastey Pvt Ltd",
+    "rating": 3,
+    "cuisine": "Indian"
+  },
+  {
+    "name": "Big Pvt Ltd",
+    "rating": 4,
+    "cuisine": "Fast Food"
+  },
+  {
+    "name": "Salty Pvt Ltd",
+    "rating": 2,
+    "cuisine": "Mexican"
+  },
+  {
+    "name": "Home Mane Pvt Ltd",
+    "rating": 5,
+    "cuisine": "American"
+  }
+]

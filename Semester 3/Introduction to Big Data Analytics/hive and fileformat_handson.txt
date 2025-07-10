@@ -1,0 +1,244 @@
+
+
+--- Table for Views--------------------------------------------
+
+
+https://raw.githubusercontent.com/vidyayoga/demo/main/employees.txt
+
+hadoop> wget -O employees.txt 'https://raw.githubusercontent.com/vidyayoga/demo/main/employees.txt'
+
+-- create employees table
+
+CREATE TABLE employees (
+    employee_id INT,
+    name STRING,
+    department STRING,
+    salary INT,
+    year int,
+    month int
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
+
+-- Load the data from local inpath
+hive> LOAD DATA LOCAL INPATH '/home/hadoop/employees.txt' INTO TABLE employees;
+
+
+-----------------------views-----------------------------------------------
+
+CREATE VIEW employee_view AS
+SELECT employee_id, name, department, salary, year, month
+FROM employees;
+
+> show views;
+
+List views in hadoop
+-- we cannot see views under hadoop since views are only virtual gets created only in metabase
+
+
+SELECT * FROM employee_view WHERE salary > 50000;
+
+
+CREATE VIEW hr_employees AS
+SELECT employee_id, name, department, salary, year, month
+FROM employees
+WHERE department = 'HR';
+
+
+INSERT INTO TABLE employees (employee_id, name, department, salary, year, month)
+VALUES (200, 'AAAAAA', 'HR', 60000, 2024, 8);
+
+Alter VIEW hr_employees AS
+SELECT employee_id, name, department, salary, year, month
+FROM employees
+WHERE department = 'Engineering';
+
+
+-- view does not support the direct renaming of view so we need to drop the view and create new view with desired changes
+
+Drop view hr_employees;
+
+CREATE VIEW employee_view AS
+SELECT employee_id, name, department, salary, year, month
+FROM employees
+WHERE salary > 100000;
+
+
+
+
+-------------------- MAP Datatype ---------------------------------------------------------
+CREATE TABLE student_marks (
+  student_id INT,
+  student_name STRING,
+  marks MAP<STRING, INT>  -- Map of subject names to marks
+)
+STORED AS TEXTFILE;
+
+INSERT INTO student_marks VALUES
+(1, 'Alice', map('Math', 85, 'Science', 92, 'English', 88)),
+(2, 'Bob', map('Math', 78, 'Science', 85, 'English', 90)),
+(3, 'Charlie', map('Math', 82, 'Science', 80, 'English', 87)),
+(4, 'David', map('Math', 91, 'Science', 89, 'English', 93)),
+(5, 'Eve', map('Math', 76, 'Science', 84, 'English', 82)),
+(6, 'Frank', map('Math', 88, 'Science', 92, 'English', 85)),
+(7, 'Grace', map('Math', 79, 'Science', 77, 'English', 90)),
+(8, 'Hannah', map('Math', 83, 'Science', 89, 'English', 91)),
+(9, 'Ivy', map('Math', 77, 'Science', 82, 'English', 88)),
+(10, 'Jack', map('Math', 85, 'Science', 90, 'English', 84)),
+
+(11, 'Kathy', map('Math', 78, 'Science', 79, 'English', 85)),
+(12, 'Leo', map('Math', 89, 'Science', 91, 'English', 90)),
+(13, 'Mia', map('Math', 82, 'Science', 84, 'English', 79)),
+(14, 'Nate', map('Math', 76, 'Science', 80, 'English', 88)),
+(15, 'Olivia', map('Math', 94, 'Science', 87, 'English', 92)),
+(16, 'Paul', map('Math', 88, 'Science', 83, 'English', 77)),
+(17, 'Quinn', map('Math', 82, 'Science', 85, 'English', 91)),
+(18, 'Rita', map('Math', 90, 'Science', 78, 'English', 89)),
+(19, 'Steve', map('Math', 79, 'Science', 76, 'English', 82)),
+(20, 'Tina', map('Math', 81, 'Science', 83, 'English', 87)),
+
+(21, 'Uma', map('Math', 85, 'Science', 88, 'English', 84)),
+(22, 'Vera', map('Math', 77, 'Science', 81, 'English', 90)),
+(23, 'Will', map('Math', 89, 'Science', 84, 'English', 91)),
+(24, 'Xena', map('Math', 83, 'Science', 78, 'English', 87)),
+(25, 'Yale', map('Math', 86, 'Science', 92, 'English', 80)),
+(26, 'Zoe', map('Math', 88, 'Science', 87, 'English', 89)),
+(27, 'Alan', map('Math', 79, 'Science', 82, 'English', 88)),
+(28, 'Beth', map('Math', 90, 'Science', 85, 'English', 91)),
+(29, 'Carl', map('Math', 83, 'Science', 80, 'English', 84)),
+(30, 'Dana', map('Math', 77, 'Science', 88, 'English', 86)),
+
+(31, 'Eric', map('Math', 82, 'Science', 79, 'English', 87)),
+(32, 'Faye', map('Math', 88, 'Science', 84, 'English', 89)),
+(33, 'Gina', map('Math', 76, 'Science', 81, 'English', 80)),
+(34, 'Hugo', map('Math', 85, 'Science', 90, 'English', 88)),
+(35, 'Iris', map('Math', 79, 'Science', 85, 'English', 91)),
+(36, 'Jackie', map('Math', 84, 'Science', 80, 'English', 87)),
+(37, 'Ken', map('Math', 78, 'Science', 76, 'English', 85)),
+(38, 'Lena', map('Math', 90, 'Science', 89, 'English', 88)),
+(39, 'Mike', map('Math', 82, 'Science', 77, 'English', 86)),
+(40, 'Nina', map('Math', 87, 'Science', 84, 'English', 89)),
+
+(41, 'Oscar', map('Math', 75, 'Science', 80, 'English', 82)),
+(42, 'Pam', map('Math', 82, 'Science', 86, 'English', 91)),
+(43, 'Quincy', map('Math', 89, 'Science', 78, 'English', 85)),
+(44, 'Randy', map('Math', 77, 'Science', 80, 'English', 86)),
+(45, 'Sandy', map('Math', 84, 'Science', 82, 'English', 79)),
+(46, 'Tony', map('Math', 91, 'Science', 87, 'English', 88)),
+(47, 'Ursula', map('Math', 78, 'Science', 85, 'English', 90)),
+(48, 'Vince', map('Math', 82, 'Science', 79, 'English', 83)),
+(49, 'Wendy', map('Math', 87, 'Science', 88, 'English', 92)),
+(50, 'Xander', map('Math', 80, 'Science', 86, 'English', 85));
+
+
+1. Find Students with Marks in a Specific Subject
+SELECT student_id, student_name, marks['Math'] AS math_marks
+FROM student_marks
+WHERE marks['Math'] > 85;
+
+2. List Subjects and Marks for a Specific Student
+SELECT student_id, student_name, map_key AS subject, map_value AS mark
+FROM student_marks
+LATERAL VIEW explode(marks) marks_tbl AS map_key, map_value
+WHERE student_id = 3;
+
+3.  Find the Student with the Highest Marks in a Specific Subject
+SELECT student_id, student_name, marks['Science'] AS science_marks
+FROM student_marks
+ORDER BY science_marks DESC
+LIMIT 1;
+
+4.Count the Number of Students Who Have Marks in a Specific Range
+SELECT COUNT(*) AS num_students
+FROM student_marks
+WHERE marks['English'] BETWEEN 80 AND 90;
+
+5. Lateral View to explode the arrary data
+
+SELECT student_id, student_name, map_key, map_value
+FROM student_marks
+LATERAL VIEW explode(marks) detailtbl AS map_key, map_value;
+
+
+5. Calculate the Average Marks Across All Subjects for Each Student
+SELECT student_id, 
+       student_name, 
+       round(AVG(mark),2) AS avg_marks
+FROM (
+    SELECT student_id, 
+           student_name, 
+           map_value AS mark
+    FROM student_marks
+    LATERAL VIEW explode(marks) marks_tbl AS map_key, map_value
+) AS marks_table
+GROUP BY student_id, student_name;
+
+
+wget https://raw.githubusercontent.com/vidyayoga/demo/refs/heads/main/people_DS.csv
+
+
+-- parquet format------------------------------------------------------------------------------------
+
+CREATE TABLE user_data (
+    index INT,
+    user_id STRING,
+    first_name STRING,
+    last_name STRING,
+    sex STRING,
+    email STRING,
+    phone STRING,
+    date_of_birth STRING,
+    job_title STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',' 
+STORED AS TEXTFILE
+TBLPROPERTIES ('skip.header.line.count'='1');
+
+LOAD DATA LOCAL INPATH '/home/hadoop/people_DS.csv'
+INTO TABLE user_data;
+
+
+
+
+
+-- Load data into hive table--------------------
+LOAD DATA LOCAL INPATH '/home/hadoop/sales_data.csv' INTO TABLE sales_data;
+
+
+select * from sales_data limit 10;
+
+
+--- create parquet file---------------
+CREATE TABLE user_parquet
+STORED AS PARQUET
+AS
+SELECT * FROM user_data;
+
+
+
+
+--- create ORC files--------
+
+CREATE TABLE user_ORC
+STORED AS ORC
+AS
+SELECT * FROM user_data;
+
+
+
+select first_name from user_parquet where job_title="Actor";
+select count(*) from user_orc where job_titile="Actor";
+
+select count(job_title) from user_orc where job_titile="Actor";
+
+
+
+
+
+
+
+
+
+
